@@ -8,17 +8,20 @@ import {
   BlogPostItem
 } from './types';
 
+import portraitImg from './assets/images/mukter_portrait_1779526913212.png';
+import dashboardImg from './assets/images/marketing_dashboard_1779524378795.png';
+
 // Asset paths for reference in components
 export const IMAGES = {
-  portrait: '/src/assets/images/mukter_portrait_1779526913212.png',
-  dashboard: '/src/assets/images/marketing_dashboard_1779524378795.png'
+  portrait: portraitImg,
+  dashboard: dashboardImg
 };
 
 export const HERO_DATA = {
   name: 'Md Mukter Ahmed',
-  title: 'Digital Marketer & Growth Strategist',
-  tagline: 'Helping Brands Grow Through SEO, Paid Ads, Content Marketing & Data-Driven Strategies.',
-  subtext: 'Growth isn\'t about guessing. I build high-converting acquisition funnels, laser-targeted paid ad campaigns, and bulletproof search strategies that transform traffic into scalable revenue.',
+  title: 'ডিজিটাল মার্কেটার এবং গ্রোথ স্ট্র্যাটেজিস্ট (Digital Marketer & Growth Strategist)',
+  tagline: 'এসইও, পেইড ক্যাম্পেইন, কন্টেন্ট মার্কেটিং এবং ডাটা-চালিত কৌশলের মাধ্যমে বিজনেসের দ্রুত বৃদ্ধি।',
+  subtext: 'ডিজিটাল প্রবৃদ্ধি কোনো অনুমানের বিষয় নয়। আমি তৈরি করি হাই-কনভার্টিং অ্যাকুইজিশন ফানেল, নিখুঁত টার্গেটেড পেইড অ্যাড ক্যাম্পেইন এবং শক্তিশালী সার্চ স্ট্র্যাটেজি, যা আপনার ট্রাফিককে একটি দীর্ঘমেয়াদী এবং পরিমাপযোগ্য মুনাফায় রূপান্তরিত করবে।',
   socials: {
     linkedin: 'https://linkedin.com/in/#', // User can add their handle
     facebook: 'https://www.facebook.com/mokterahmed.official', // User can add their handle or customized
@@ -32,182 +35,182 @@ export const STATS_DATA: StatItem[] = [
     id: 'projects',
     value: 50,
     suffix: '+',
-    label: 'Projects Completed',
-    subtext: 'High-impact campaigns'
+    label: 'প্রজেক্ট সম্পন্ন',
+    subtext: 'উচ্চ-প্রভাবশালী ক্যাম্পেইন'
   },
   {
     id: 'clients',
     value: 20,
     suffix: '+',
-    label: 'Happy Clients',
-    subtext: 'Global brands & startups'
+    label: 'সন্তুষ্ট ক্লায়েন্ট',
+    subtext: 'গ্লোবাল ব্র্যান্ড ও স্টার্টআপ'
   },
   {
     id: 'experience',
     value: 5,
     suffix: '+',
-    label: 'Years Experience',
-    subtext: 'In active growth marketing'
+    label: 'বছরের অভিজ্ঞতা',
+    subtext: 'সক্রিয় গ্রোথ মার্কেটিংয়ে'
   },
   {
     id: 'adspend',
     value: 100,
-    suffix: 'K+',
-    label: 'Ad Spend Managed',
-    subtext: 'Profitable paid channels'
+    suffix: 'কে+',
+    label: 'অ্যাড বাজেট পরিচালিত',
+    subtext: 'লাভজনক পেইড মার্কেটিং'
   }
 ];
 
 export const ABOUT_DATA = {
-  storyHeading: 'Data-Driven Strategist Driving Measurable Marketing ROI',
-  storyIntro: 'I am a highly driven Digital Marketer & Growth Strategist with over 5 years of hands-on experience in planning, deploying, and optimizing digital experiences that convert leads into lifetime customers.',
-  storyParagraph1: 'My approach is rooted in direct-response marketing principles and strict mathematical optimization. I don\'t optimize of "likes" or "impressions"; I optimize for cash flow, customer acquisition cost (CAC), and customer lifetime value (LTV). Whether it represents scaling Meta (Facebook) Ads, implementing complex multi-touch Google Ads funnels, or establishing compound search authority, I treat every marketing dollar as an investment that must yield a positive return.',
-  storyParagraph2: 'Over my career, I have worked across e-commerce, B2B SaaS, and local service niches, building cohesive growth systems. I deeply understand that modern marketing is a science that blends creative psychological hooks with technical tracking perfection—such as custom GA4 telemetry, Google Tag Manager event structures, and server-side conversion APIs.',
-  philosophy: 'Growth isn\'t a single hack; it is a repeatable system built on meticulous micro-experiments, precise tracking, and continuous conversion rate optimization.',
+  storyHeading: 'ডাটা-চালিত স্ট্র্যাটেজি যা নিশ্চিত করে পরিমাপযোগ্য মার্কেটিং ROI',
+  storyIntro: 'আমি মোঃ মুক্তের আহমেদ (Md Mukter Ahmed), একজন ডিজিটাল মার্কেটার এবং গ্রোথ স্পেশালিস্ট। ৫ বছরেরও বেশি সময় ধরে আমি ডিজিটাল কৌশল রচনার মাধ্যমে বিভিন্ন ব্যবসাকে লাভজনক ও সফল করে তুলতে কাজ করছি।',
+  storyParagraph1: 'আমার কাজের মূল ভিত্তি তৈরি হয়েছে ডিরেক্ট-রেসপন্স মার্কেটিং নীতি এবং নিখুঁত গাণিতিক অপ্টিমাইজেশনের মাধ্যমে। আমি কেবল লাইক বা ইম্প্রেশনের পেছনে ছুটি না; আমার মূল লক্ষ্য থাকে ক্যাশ ফ্লো (Cash Flow), কাস্টমার অ্যাকুইজিশন খরচ কমানো (CAC), এবং কাস্টমার লাইফটাইম ভ্যালু (LTV) অপ্টিমাইজ করা। মেটা (ফেসবুক) অ্যাড স্কেল করা, জটিল গুগল অ্যাড ফানেল সাজানো বা সার্চ ইঞ্জিনে একচ্ছত্র আধিপত্য তৈরি করা—আমি যেকোনো বিজ্ঞাপন বাজেটকে এমন একটি বিনিয়োগ হিসেবে বিবেচনা করি, যা অবশ্যই লাভজনক রিটার্ন নিশ্চিত করবে।',
+  storyParagraph2: 'আমার ক্যারিয়ারে আমি ই-কমার্স, বিটুবি স্যাস (B2B SaaS) এবং লোকাল সার্ভিসের মতো বিভিন্ন খাতে কাজ করেছি এবং একটি টেকসই গ্রোথ সিস্টেম গড়ে তুলেছি। আমি বিশ্বাস করি আধুনিক মার্কেটিং হলো এমন একটি বিজ্ঞান, যা সাইকোলজিক্যাল হুক এবং নিখুঁত টেকনিক্যাল ট্র্যাকিংয়ের সমন্বয়ে কাজ করে—যেমন কাস্টম GA4 ট্র্যাকিং, গুগল ট্যাগ ম্যানেজার ইভেন্ট সেটআপ এবং সার্ভার-সাইড পিক্সেল কনভার্সন এপিআই (CAPI)।',
+  philosophy: 'ডিজিটাল গ্রোথ কোনো তাৎক্ষণিক চমৎকার হ্যাক বা ট্রিক নয়; এটি একটি পুনরাবৃত্তিযোগ্য সিস্টেম যা ক্ষুদ্রতম পরীক্ষা-নিরীক্ষা, নিখুঁত ট্র্যাকিং এবং ক্রমাগত কনভার্সন রেট অপ্টিমাইজেশনের মাধ্যমে কাজ করে।',
   features: [
-    { title: 'Search Engine Authority', desc: 'Sustained organic traffic acquisition using semantic topical SEO modeling and clean, high-intent editorial backlinks.' },
-    { title: 'Predictable Paid Customer Acquisition', desc: 'Deploying multi-tier programmatic Facebook/Meta and Google Ads campaigns designed for optimal ROAS and low CPC.' },
-    { title: 'Bulletproof Conversion Telemetry', desc: 'Full-funnel analytics and behavioral pixel tracking (GTM, GA4, Meta API) to prevent attribution leaks and find growth loops.' }
+    { title: 'সার্চ ইঞ্জিন অথরিটি', desc: 'টপিক এসইও কভারেজ এবং মানসম্মত ব্যাকলিংক প্রোফাইলিংয়ের মাধ্যমে দীর্ঘমেয়াদী অর্গানিক রিচ ও ক্রেতা বৃদ্ধি।' },
+    { title: 'বিজ্ঞাপনী ক্যাম্পেইন স্কেলিং', desc: 'অপটিমাল ROAS এবং কম খরচ (CPC) নিশ্চিত করে ফেসবুক এবং গুগল বিজ্ঞপ্তির সফল প্রচারণা ও নিয়মিত পরিচালনা।' },
+    { title: 'নিখুঁত ডাটা ট্র্যাকিং', desc: 'GTM, GA4 এবং কনভার্সন এপিআই ব্যবহারের মাধ্যমে আপনার ফানেলের ডাটা লিক নিষ্ক্রিয় এবং সঠিক সিদ্ধান্ত গ্রহণ।' }
   ]
 };
 
 export const SKILLS_DATA: SkillItem[] = [
-  { name: 'SEO Optimization', level: 95, category: 'traffic', description: 'Technical audits, site structure, semantic keyword maps, internal linking, and white-hat off-page authority building.' },
-  { name: 'Meta (Facebook & Instagram) Ads', level: 92, category: 'ads', description: 'Custom pixel architectures, high-performing creative hooks selection, CBO/ABO campaign scaling, and lookalike modeling.' },
-  { name: 'Google Search & Display PPC', level: 88, category: 'ads', description: 'Smart bidding logic, high-intent keyword targets, search term grouping, negative match scrubbing, and negative-CPC containment.' },
-  { name: 'Content Marketing', level: 90, category: 'traffic', description: 'Data-backed content briefs, search intent alignment, authority copywriting, and multi-channel asset distribution.' },
-  { name: 'Conversion Tracking & GA4', level: 94, category: 'conversion', description: 'GTM container programming, Custom event parameters, Conversion API (CAPI) servers, and cohort/funnel reports in Looker.' },
-  { name: 'Funnel Strategy & CRO', level: 89, category: 'conversion', description: 'Landing page copy, checkout speed-ups, high-tension lead magnets, standard wireframing, and user interaction replay mapping.' },
-  { name: 'Email Marketing Automations', level: 85, category: 'strategy', description: 'Klaviyo/ActiveCampaign triggers, purchase recovery systems, behavioral nurture flows, and hyper-segmented drip loops.' },
-  { name: 'Social Media Management', level: 87, category: 'traffic', description: 'Platform native strategies, brand engagement benchmarks, engagement hooks, and target audience persona maps.' },
-  { name: 'Marketing Strategy & Consultation', level: 93, category: 'strategy', description: 'Audit scorecards, competitive intelligence research, digital blueprint design, and client growth forecasting models.' }
+  { name: 'এসইও অপ্টিমাইজেশন (SEO)', level: 95, category: 'traffic', description: 'টেকনিক্যাল অডিট, সাইট স্ট্রাকচার, সেম্যান্টিক কিওয়ার্ড ম্যাচিং, ইন্টারনাল লিঙ্কিং এবং মানসম্মত ব্যাকলিংক প্রোফাইলিং।' },
+  { name: 'মেটা (ফেসবুক ও ইনস্টাগ্রাম) অ্যাডস', level: 92, category: 'ads', description: 'কাস্টম পিক্সেল সেটআপ, উচ্চ-রূপান্তরকারী ক্রিয়েটিভ তৈরি, CBO/ABO ক্যাম্পেইন স্কেলিং এবং লুকুঅ্যালাইক অডিয়েন্স।' },
+  { name: 'গুগল সার্চ ও ডিসপ্লে পিপিসি (PPC)', level: 88, category: 'ads', description: 'স্মার্ট বিডিং লজিক, হাই-ইনটেন্ট কিওয়ার্ড টার্গেটিং, সার্চ কোয়েরি গ্রুপিং এবং নেগেটিভ কিওয়ার্ড ফিল্টারিং।' },
+  { name: 'কনটেন্ট মার্কেটিং ও কপিরাইটিং', level: 90, category: 'traffic', description: 'ডাটা-ব্যাকড কনটেন্ট প্ল্যানিং, সার্চ ইন্টেন্ট অ্যানালাইসিস, আকর্ষক কপিরাইটিং এবং মাল্টি-চ্যানেল কনটেন্ট ডিস্ট্রিবিউশন।' },
+  { name: 'কনভার্সন ট্র্যাকিং এবং GA4', level: 94, category: 'conversion', description: 'GTM কন্টেইনার প্রোগ্রামিং, কাস্টম ইভেন্ট প্যারামিটার, সার্ভার-সাইড কনভার্সন এপিআই (CAPI) এবং লুকের রিপোর্ট ডিজাইন।' },
+  { name: 'ফানেল স্ট্র্যাটেজি ও CRO', level: 89, category: 'conversion', description: 'ল্যান্ডিং পেজ কপি অপ্টিমাইজেশন, দ্রুত লোডিং চেকআউট, বাটন এ/বি কালার টেস্টিং এবং ইউজার হিটম্যাপ অ্যানালাইসিস।' },
+  { name: 'ইমেইল মার্কেটিং অটোমেশন', level: 85, category: 'strategy', description: 'কাস্টম কার্ট রিকভারি ট্রিগারস, বিহেভিওরাল নার্চার ফ্লো, এবং হাইপার-সেগমেন্টেড ড্রিপ ক্যাম্পেইন।' },
+  { name: 'সোশ্যাল মিডিয়া ম্যানেজমেন্ট', level: 87, category: 'traffic', description: 'সোশ্যাল প্ল্যাটফর্ম-নেটিভ অর্গানিক রিচ স্ট্র্যাটেজি, ফ্যান এনগেজমেন্ট এবং টার্গেট অডিয়েন্স পারসোনা ডিজাইন।' },
+  { name: 'মার্কেটিং স্ট্র্যাটেজি ও কনসালটেশন', level: 93, category: 'strategy', description: 'ডিটেইল্ড অডিট স্কোরকার্ড, কম্পিটিটর অ্যানালাইসিস, কাস্টম ডিজিটাল ব্লুপ্রিন্ট ডিজাইন এবং আরওআই (ROI) পূর্বাভাস।' }
 ];
 
 export const SERVICES_DATA: ServiceItem[] = [
   {
     id: 'seo',
     iconName: 'Search',
-    title: 'SEO Strategy & Authority Scaling',
-    shortDesc: 'Drive high-volume, intent-rich organic customers to your web pages using evergreen index positions.',
-    longDesc: 'Stop renting transient traffic and start owning your market share. My full-suite search engine optimization covers everything from deep semantic keyword networks to technical mobile responsiveness, rendering an unstoppable engine of compounding organic leads directly to your storefront.',
+    title: 'এসইও স্ট্র্যাটেজি ও সার্চ অথরিটি স্কেলিং',
+    shortDesc: 'দীর্ঘমেয়াদী সার্চ র‍্যাঙ্কিং অর্জনের মাধ্যমে আপনার ওয়েবসাইটে উচ্চ-মানসম্পন্ন গ্রাহকদের আকর্ষণ করুন।',
+    longDesc: 'কোনো অস্থায়ী বিজ্ঞাপনের ওপর নির্ভর না করে আপনার সার্চ পজিশন স্থায়ী করুন। আমার ফুল-সার্ভিস সার্চ ইঞ্জিন অপ্টিমাইজেশন কিওয়ার্ড র‍্যাঙ্কিং থেকে শুরু করে টেকনিক্যাল স্পিড অডিট সবকিছুই অন্তর্ভুক্ত করে, যা আপনার ব্যবসার জন্য অর্গানিক লিড জেনারেশনের একটি নিরবচ্ছিন্ন ইঞ্জিন তৈরি করে।',
     features: [
-      'Comprehensive Core Web Vitals & Technical Audits',
-      'Semantic Topical Mapping & Competitor Keyword Stealing',
-      'High-Intent Landing Page Copywriting & Content Hubs',
-      'Premium, Natural Editorial Backlink Acquisition',
-      'Local SEO GMB optimization & Schema markup installation'
+      'কোর ওয়েব ভাইটালস নির্ণয় ও টেকনিক্যাল এসইও অডিট',
+      'টপিকাল কিওয়ার্ড ম্যাপিং এবং প্রতিযোগী কিওয়ার্ড বিশ্লেষণ',
+      'কনভার্সন-অনুকূল ল্যান্ডিং পেজ কন্টেন্ট তৈরি',
+      'হাই-কোয়ালিটি এবং অথরিটেটিভ ব্যাকলিংক কালেকশন',
+      'লোকাল এসইও (GMB) এবং স্কিমা মার্কআপ স্থাপন'
     ]
   },
   {
     id: 'meta-ads',
     iconName: 'Facebook',
-    title: 'Facebook & Meta Ads Management',
-    shortDesc: 'Laser-targeted paid social campaigns that generate explosive pipeline and consistent ROAS.',
-    longDesc: 'Traditional generic campaigns do not work anymore. I design, program, and manage advanced creative testing frameworks on Facebook and Instagram to find winning combinations that confidently convert cold audiences into buyers. Using dynamic catalogs, segmented funnels, and advanced pixel modeling, I create scalable revenue.',
+    title: 'ফেসবুক ও মেটা বিজ্ঞাপন পরিচালনা',
+    shortDesc: 'লেজার-টার্গেটেড পেইড সোশ্যাল ক্যাম্পেইন যা রূপান্তর সর্বোচ্চ করে এবং সন্তোষজনক ROAS নিশ্চিত করে।',
+    longDesc: 'সাধারণ বিজ্ঞাপন বর্তমানে আর সাড়া দেয় না। আমি মেটা প্ল্যাটফর্মে উন্নত ক্রিয়েটিভ টেস্টিং ফ্রেমওয়ার্ক ডিজাইন করি, যা কোল্ড অডিয়েন্সকে সরাসরি বায়ারে রূপান্তর করে। কাস্টম অডিয়েন্স টার্গেটিং, পিক্সেল ট্র্যাকিং এবং উন্নত কনভার্সন এপিআই সমন্বয়ে আমরা লাভজনক ফলাফল তৈরি করি।',
     features: [
-      'Rigorous Dynamic Creative Testing (DCT) frameworks',
-      'LTV-focused retention and cart abandonment flows',
-      'Custom and Lookalike Audience configuration',
-      'Pixel tracking, Conversion API, & Server-side configurations',
-      'Weekly ROAS diagnostics and creative content briefings'
+      'ডায়নামিক ক্রিয়েটিভ টেস্টিং (DCT) পদ্ধতি বাস্তবায়ন',
+      'LTV-কেন্দ্রিক কাস্টমার রিটেনশন এবং কার্ট ড্রপআউট ফ্লো',
+      'কাস্টম এবং লুক-অ্যালাইক অডিয়েন্স সেটআপ',
+      'পিক্সেল এবং সার্ভার-সাইড কনভার্সন এপিআই ট্র্যাকিং',
+      'সাপ্তাহিক ROAS ডায়াগনস্টিকস এবং ক্রিয়েটিভ অডিট রিপোর্ট'
     ]
   },
   {
     id: 'google-ads',
     iconName: 'TrendingUp',
-    title: 'Google PPC & Search Engine Ads',
-    shortDesc: 'Capture high-buyer-intent users at the exact moment they search for your products or solutions.',
-    longDesc: 'I create laser-focused Search, Shopping, and Performance Max Google Ads structures that put your brand directly in front of buyers actively typing in high-value queries. By executing surgical keyword bidding and custom landing-page mappings, we drive down CPC while scaling transaction value.',
+    title: 'গুগল পিপিসি (PPC) এবং সার্চ ইঞ্জিন অ্যাডস',
+    shortDesc: 'সটীক ক্রেতাদের টার্গেট করুন ঠিক সেই মুহূর্তে যখন তারা গুগলে আপনার সেবা বা পণ্য সার্চ করছেন।',
+    longDesc: 'আমি অতি সুনির্দিষ্ট সার্চ, শপিং এবং গুগল পারফরম্যান্স ম্যাক্স (PMax) ক্যাম্পেইন তৈরি করি যা আপনার ব্র্যান্ডকে সরাসরি ক্রেতাদের নজরে এনে দেয়। নিখুঁত বিডিং এবং ল্যান্ডিং পেজ অপ্টিমাইজেশনের মাধ্যমে আমরা কস্ট-পার-ক্লিক (CPC) হ্রাস করি ও রূপান্তরের হার বৃদ্ধি করি।',
     features: [
-      'Buyer-intent precise Search and Smart Campaign setups',
-      'Performance Max (PMax) inventory & feed optimization',
-      'Surgical negative keyword lists and bid limit containment',
-      'Direct competitors conquesting and brand security bidding',
-      'Integrated Google Tag Manager conversion event attribution'
+      'হাই-ইনটেন্ট সার্চ এবং স্মার্ট ক্যাম্পেইন কনফিগারেশন',
+      'গুগল পারফরম্যান্স ম্যাক্স (PMax) ফিড ও অ্যাসেট অপ্টিমাইজেশন',
+      'নেগেটিভ কিওয়ার্ড ফিল্টারিং এবং বিড বাজেট অপ্টিমাইজেশন',
+      'প্রতিযোগীদের কিওয়ার্ড গবেষণা এবং ব্র্যান্ড সিকিউরিটি বিজ্ঞাপনী সেটআপ',
+      'গুগল ট্যাগ ম্যানেজার ব্যবহার করে নির্ভুল ইভেন্ট অ্যাট্রিবিউশন'
     ]
   },
   {
     id: 'lead-gen',
     iconName: 'Layers',
-    title: 'High-Ticket B2B Lead Generation',
-    shortDesc: 'Inject fresh, qualified corporate and consumer leads into your active sales pipelines daily.',
-    longDesc: 'Tired of dead-end contacts? I construct seamless inbound conversion pipelines using strategic lead magnets, high-retention multi-step forms, and behavioral email triggers to qualify decision-makers and convert cold traffic into scheduled sales calls.',
+    title: 'হাই-টিকেট বিটুবি (B2B) লিড জেনারেশন',
+    shortDesc: 'আপনার অ্যাক্টিভ সেলস ফানেলে কোয়ালিফাইড কর্পোরেট এবং কনজিউমার লিড যুক্ত করুন প্রতিদিন।',
+    longDesc: 'আমি আকর্ষণীয় লিড ম্যাগনেট, মাল্টি-স্টেপ লিড ফর্ম এবং নিখুঁত ইমেইল ট্রিগারস সমন্বয়ে এমন ফানেল তৈরি করি—যা লক্ষ্যভিত্তিক ক্রেতা বা নীতিনির্ধারকদের আকৃষ্ট করে এবং সরাসরি বুকড কল নিশ্চিত করে।',
     features: [
-      'Interactive assessment and quiz funnel development',
-      'Multi-step form performance testing (Typeform/Custom)',
-      'Instant lead dispatch alerts with automated SMS triggers',
-      'Lead routing directly to your favorite CRM platform (HubSpot/GoHighLevel)',
-      'Calendar integrations (Calendly/Cal.com) with warm-up drips'
+      'ইন্টারেক্টিভ ক্যালকুলেটর কুইজ এবং লিড ফানেল ডিজাইন',
+      'মাল্টি-স্টেপ হাই-কনভার্টিং উইজেট টেস্টিং অ্যান্ড সেটআপ',
+      'অটোমেটেড এসএমএস এবং ইমেইল ওয়ার্ম-আপ সিকোয়েন্স',
+      'CRM প্ল্যাটফর্মের (HubSpot/GoHighLevel) সাথে নিরবচ্ছিন্ন সংযোগ',
+      'ক্যালেন্ডলি অ্যাপ এবং শিডিউলিং উইজেট লিঙ্কিং'
     ]
   },
   {
     id: 'smm',
     iconName: 'Share2',
-    title: 'Social Media Marketing & Brand Scaling',
-    shortDesc: 'Increase engagement, raise baseline trust metrics, and curate an authentic digital community.',
-    longDesc: 'Establish active brand authority across top demographic channels. I build custom strategic schedules, hook structures, and visual guides to expand organic brand reach, boost follower interactions, and build localized brand ambassadors.',
+    title: 'সোশ্যাল মিডিয়া মার্কেটিং এবং ব্র্যান্ড স্কেলিং',
+    shortDesc: 'গ্রাহকদের আস্থা অর্জন করুন এবং একটি দারুণ ইন্টারেক্টিভ ডিজিটাল কমিউনিটি গড়ে তুলুন।',
+    longDesc: 'আপনার সোশ্যাল মিডিয়ার প্রভাব বাড়িয়ে তুলুন। আমি ইউনিক স্টোরিটেলিং কৌশল এবং ট্রেন্ডি হুক ডিজাইন করি যেন আপনার অর্গানিক রিচ বৃদ্ধি পায় এবং ফলোয়ার ইন্টারেকশন উল্লেখযোগ্যভাবে বৃদ্ধি পায়।',
     features: [
-      'Multi-platform creative storytelling templates and briefs',
-      'Community engagement strategies and hashtag networks',
-      'Platform-native content scaling (Reels, TikTok, Shorts)',
-      'Social media performance audits and competitive insight tracking',
-      'Influencer partnership program models and brief setups'
+      'বহুমাত্রিক ক্রিয়েটিভ কন্টেন্ট টেমপ্লেট এবং ব্রিফস',
+      'সোশ্যাল মিডিয়া কমিউনিটি মেসেজ ও হ্যাশট্যাগ ডিজাইন',
+      'প্ল্যাটফর্ম-নেটিভ ভাইরাল কন্টেন্ট স্কেলিং (রিলস, টিকটক, শর্টস)',
+      'সোশ্যাল পেজ অডিট এবং প্রতিযোগীদের গতিবিধি ট্র্যাকিং',
+      'ইনফ্লুয়েন্সার পার্টনারশিপ ক্যাম্পেইন লেআউট ডিজাইন'
     ]
   },
   {
     id: 'content',
     iconName: 'BookOpen',
-    title: 'Content Strategy & SEO Copywriting',
-    shortDesc: 'Surgical educational content hubs planned and authored to rank high and secure conversion interest.',
-    longDesc: 'Traffic is empty without direction. I compile deep search intent maps to design editorial calendars, detailed educational briefs, and fully custom long-form authority articles that immediately connect with user searches and funnel them toward commercial calls to action.',
+    title: 'কনটেন্ট স্ট্র্যাটেজি এবং এসইও কপিরাইটিং',
+    shortDesc: 'সুচিন্তিত শিক্ষামূলক কন্টেন্ট হাব যা গুগলে সার্চ র‍্যাঙ্ক অর্জনের সাথে সাথে রূপান্তর বাড়িয়ে তোলে।',
+    longDesc: 'সটীক দিকনির্দেশনা ছাড়া কন্টেন্ট মূল্যহীন। আমি কাস্টমারদের মনস্তাত্ত্বিক সার্চ হুক বিশ্লেষণ করে এমন কন্টেন্ট ক্যালেন্ডার এবং রিচ-আউট গাইড তৈরি করি, যা ব্যবহারকারীদের মনের প্রশ্নের উত্তর দেয় এবং তাদের কেনাকাটাতে আগ্রহী করে তোলে।',
     features: [
-      'Complete Search Intent Analysis & Editorial mapping',
-      'Authority long-form search blogging (1500+ word guides)',
-      'Conversion-optimized headlines and scroll-stoppers',
-      'Semantic NLP optimization using clear term density maps',
-      'Lead Magnet designs (e-books, resource sheets, calculators)'
+      'সার্চ ইন্টেন্ট বিশ্লেষণ এবং ধারাবাহিক মেম্বারশিপ প্ল্যান',
+      'অথরitative দীর্ঘ কন্টেন্ট ও এসইও ব্লগ পোস্ট (১৫০০+ শব্দের গাইড)',
+      'কনভার্সন-অপ্টিমাইজড চিত্তাকর্ষক শিরোনাম ও হুক কপিরাইটিং',
+      'সেম্যান্টিক এনএলপি (NLP) অপ্টিমাইজেশন ও কিওয়ার্ড ডেনসিটি পরীক্ষা',
+      'লিড ম্যাগনেট ডিজাইন (ই-বুক, রিসোর্স শিট, চেকলিস্ট ও ক্যালকুলেটর)'
     ]
   },
   {
     id: 'audit',
     iconName: 'FileSearch',
-    title: 'Website Technical & Marketing Audits',
-    shortDesc: 'Comprehensive reviews of page indexing, speed bottlenecks, user experience leaks, and SEO errors.',
-    longDesc: 'I diagnose the exact structural and programmatic issues stalling your organic listings or breaking ad attribution. I deliver an actionable 30-point roadmap detailing index errors, page speed metrics, semantic issues, and user flow improvements.',
+    title: 'ওয়েবসাইট টেকনিক্যাল ও মার্কেটিং অডিট',
+    shortDesc: 'আপনার সাইটের ইনডেক্সিং সমস্যা, লোডিং ধীরগতি, এবং এসইও ভুলত্রুটি নির্ণয় করে সমাধান প্রদান।',
+    longDesc: 'গুগল সার্চে আপনার র‍্যাঙ্ক আটকে যাওয়ার কিংবা বিজ্ঞাপনের সঠিক ট্র্যাকিং না হওয়ার মূল কারণগুলো আমি উদঘাটন করি। আমি আপনার সাইটের জন্য একটি চূড়ান্ত ৩০-পয়েন্ট অ্যাকশন রোডম্যাপ ডিজাইন করি, যা বাস্তবায়নের মাধ্যমে অবিলম্বে আপনার ট্রাফিক এবং রূপান্তর বৃদ্ধি পাবে।',
     features: [
-      'Core Web Vitals diagnostic and image size audits',
-      'Robots.txt, Sitemap, and Schema markup reviews',
-      'Mobile UX readability and speed optimizations',
-      'Competitor link authority and anchor profile checks',
-      'GTM, Pixel, and GA4 tag tracking verification tests'
+      'কোর ওয়েব ভাইটালস রিপোর্ট ও সাইট লেআউট অডিট',
+      'Robots.txt, Sitemap এবং স্কিমা লেবেল ট্র্যাকিং স্ক্যান',
+      'মোবাইল ফ্রেন্ডলিনেস অডিট এবং স্পিড টিউনিং সリューション',
+      'কম্পিটিটর ব্যাকলিংক প্রোফাইল এবং অ্যাঙ্কর টেক্সট বিশ্লেষণ',
+      'GTM ট্র্যাকিং, মেটা পিক্সেল এবং GA4 ইভেন্ট ভেরিফিকেশন টেস্ট'
     ]
   },
   {
     id: 'cro',
     iconName: 'CheckCircle',
-    title: 'Conversion Rate Optimization (CRO)',
-    shortDesc: 'Improve landing page performance, simplify purchasing, and extract higher profits from your existing visits.',
-    longDesc: 'Do not pay for additional traffic if your website is bleeding buyers. We audit checkout funnels, run user recording analyses, and execute A/B split-testing across headers, forms, and buy buttons to turn more passive visitors into active sales.',
+    title: 'কনভার্সন রেট অপ্টিমাইজেশন (CRO)',
+    shortDesc: 'ল্যান্ডিং পেজের কার্যকারিতা বৃদ্ধি করে কাস্টমার হারানোর ঝুঁকি হ্রাস করুন এবং লাভজনক ক্রয় নিশ্চিত করুন।',
+    longDesc: 'আপনার সাইট যদি রূপান্তর করতে ব্যর্থ হয়, তাহলে ট্রাফিকের পেছনে অতিরিক্ত অর্থ ব্যয় করবেন না। আমরা কাস্টমার বিহেভিওরাল সেশন রিভিউ করি, এ/বি স্প্লিট টেস্টিং চলাই এবং হেডলাইন পরিবর্তন করে ব্যবহারকারীদের সক্রিয় ক্রেতায় পরিণত করি।',
     features: [
-      'Heatmap and mouse-tracking session replay analysis',
-      'A/B Split-testing headers, forms, color-schemes, and copy',
-      'Slicing friction points from B2B sign-ups and ecommerce carts',
-      'Trust badges placement strategies and reviews structures',
-      'Dynamic speed optimization for mobile checkout experiences'
+      'হিটম্যাপ এবং মাউস-ট্র্যাকিং সেশন রিপ্লে বিশ্লেষণ',
+      'হেডলাইন, বাটন কালার এবং ফন্ট ভেরিয়েশন এ/বি টেস্টিং',
+      'চেকআউট পেজ সিম্প্লিফিকেশন এবং কার্ট ড্রপঅফ কমানো',
+      'ইউজার ট্রাস্ট ব্যাজ এবং কাস্টমার রিভিউ সেটআপ ডিজাইন',
+      'মোবাইল ব্যবহারকারীদের জন্য সুপার ফাস্ট লোডিং পেজ কনফিগারেশন'
     ]
   },
   {
     id: 'consultation',
     iconName: 'MessageSquare',
-    title: '1-on-1 Marketing Growth Consultation',
-    shortDesc: 'Surgical strategizing, budget forecasting, and digital marketing diagnostics to hit scalable business targets.',
-    longDesc: 'Get professional diagnostic audits of your digital campaigns. I provide detailed, actionable strategies and mathematical projections during interactive growth sessions, showing you exactly how and where to invest to multiply your customer acquisition.',
+    title: '১-অন-১ মার্কেটিং গ্রোথ কনসালটেশন',
+    shortDesc: 'ব্যবসায়িক লক্ষ্যমাত্রা অর্জনের জন্য বিজ্ঞাপনী বাজেট ফোরকাস্টিং এবং কাস্টম মার্কেটিং অ্যাকশন প্ল্যান।',
+    longDesc: 'আপনার রানিং ক্যাম্পেইন বা ব্যবসায়ের সামগ্রিক মার্কেটিং গতির একটি সম্পূর্ণ প্রফেশনাল রিভিউ গ্রহণ করুন। আমার ইন্টারেক্টিভ সেশনে আপনি একটি বাস্তবসম্মত অ্যাকশন প্ল্যান ও গাণিতিক লক্ষ্য পাবেন, যা দীর্ঘমেয়াদী সফল কাস্টমার অ্যাকুইজিশন বৃদ্ধি নিশ্চিত করবে।',
     features: [
-      'Complete marketing plan diagnostics and audits',
-      'Ad spend forecasting models and CAC / LTV evaluations',
-      'Competitor traffic framework teardowns and visual reviews',
-      'Executive dashboard structuring and campaign pacing reviews',
-      'Monthly strategic alignment calls and live pipeline diagnostics'
+      'বিজনেস মডেল ডিটেইল্ড মার্কেটিং ডায়াগনস্টিকস ও অডিট',
+      'বিজ্ঞাপন বাজেট ফোরকাস্টিংモデル এবং CAC / LTV মূল্যায়ন',
+      'কম্পিটিটর ট্রাফিক এবং বিজ্ঞাপনী কৌশলের সুনির্দিষ্ট গবেষণা',
+      'ক্যাম্পেইন ট্র্যাকিং ড্যাশবোর্ড এবং পারফরম্যান্স রিভিউ',
+      'মাসিক স্ট্র্যাটেজিক কনসালটেশন কল ও লাইভ অডিটিং সার্ভিস'
     ]
   }
 ];
@@ -215,62 +218,62 @@ export const SERVICES_DATA: ServiceItem[] = [
 export const PORTFOLIO_DATA: CaseStudyItem[] = [
   {
     id: 'case-ecommerce',
-    title: 'Scaling an E-Commerce Fashion Brand with Meta Ads',
+    title: 'মেটা অ্যাডস স্কেলিংয়ের মাধ্যমে একটি ফ্যাশন ব্র্যান্ডের সফল রুপান্তর',
     client: 'Velo Custom Apparel',
-    category: 'Paid Advertising',
-    problem: 'The client had high cost-per-acquisition (CPA) on Facebook and was struggling to break past a 1.8x ROAS while stuck at $5,000 monthly ad spend.',
-    strategy: 'We implemented a Dynamic Creative Testing (DCT) framework alongside a server-side Conversions API integration to restore signal data. We transitioned the budget to high-intent broad targeting and established a customer-testimonial video collection pipeline.',
+    category: 'পেইড অ্যাডভার্টাইজিং',
+    problem: 'ক্লায়েন্টের ফেসবুক বিজ্ঞাপনে কাস্টমার অ্যাকুইজিশন খরচ প্রচুর বেশি ছিল। সামান্য ১.৮x ROAS এবং মাত্র ৫০০০ ডলার বিজ্ঞাপনী বাজেটে তারা আটকে পড়েছিল।',
+    strategy: 'আমরা ডায়নামিক ক্রিয়েটিভ টেস্টিং (DCT) এবং সার্ভার-সাইড কনভার্সন এপিআই (CAPI) ইন্টিগ্রেট করে সিগন্যাল লস দূর করি। ব্রড অডিয়েন্স টার্গেটিং সেটআপ করে কাস্টমার ফিডব্যাক ও রিভিউ ভিডিও কন্টেন্ট ব্যবহার শুরু করি।',
     results: [
-      { metric: 'Return on Ad Spend', value: '4.5x', sub: 'Up from 1.8x' },
-      { metric: 'Revenue Scaling', value: '$22.5K', sub: 'Monthly scaling' },
-      { metric: 'Cost per Purchase', value: '-38%', sub: 'Slashed acquisition costs' }
+      { metric: 'রিটার্ন অন অ্যাড স্পেন্ড (ROAS)', value: '৪.৫ গুণ', sub: '১.৮x থেকে প্রবৃদ্ধি' },
+      { metric: 'রাজস্ব প্রবৃদ্ধি', value: '$২২.৫K', sub: 'মাসিক অ্যাড রেভেনিউ স্কেল' },
+      { metric: 'কস্ট পার পারচেজ', value: '-৩৮%', sub: 'বিজ্ঞাপনী অধিগ্রহণ খরচ হ্রাস' }
     ],
-    mainMetric: '4.5x ROAS',
+    mainMetric: '৪.৫x ROAS অর্জন',
     bgColor: 'from-blue-600 to-indigo-700'
   },
   {
     id: 'case-seo',
-    title: 'SEO Authority Campaign for a B2B SaaS Platform',
+    title: 'একটি বিটুবি স্যাস প্ল্যাটফর্মের জন্য সার্চ ইঞ্জিন অথরিটি ক্যাম্পেইন',
     client: 'TaskFlow Tech',
-    category: 'SEO Optimization',
-    problem: 'TaskFlow depended exclusively on expensive PPC, with 0% organic inflow, causing their client acquisition costs to eat through VC funding.',
-    strategy: 'We constructed a semantic topical coverage map that prioritized high-intent transactional search words. Overhauled site speed to secure top mobile scores and deployed a contextual backlinking campaign targeting niche publication resources.',
+    category: 'এসইও অপ্টিমাইজেশন',
+    problem: 'টাস্কফ্লো সম্পূর্ণভাবে পেইড বিজ্ঞাপনের উপর নির্ভরশীল ছিল, যা তাদের কাস্টমার অ্যাকুইজিশন খরচ প্রচুর বাড়িয়ে তুলছিল এবং ব্যবসার ইনভেস্টমেন্ট শেষ করে ফেলছিল।',
+    strategy: 'আমরা একটি চমৎকার টপিকাল সেম্যান্টিক ইন্টেন্ট কভারেজ প্ল্যান করি। মোবাইল ফ্রেন্ডলি সাইট স্পিড অপ্টিমাইজ করি এবং নিশ ভিত্তিক হাই-অথরিটি লিঙ্কিং সোর্স থেকে ব্যাকলিংক ক্যাম্পেইন চালু করি।',
     results: [
-      { metric: 'Organic Traffic', value: '+230%', sub: 'Within 6 months' },
-      { metric: 'Monthly Leads', value: '1.2K+', sub: 'Organic signups' },
-      { metric: 'CAC Reduction', value: '45%', sub: 'Massive cash conservation' }
+      { metric: 'অর্গানিক ট্রাফিক', value: '+২৩০%', sub: 'মাত্র ৬ মাসের মধ্যে প্রবৃদ্ধি' },
+      { metric: 'মাসিক অর্গানিক লিড', value: '১.২K+', sub: 'অর্গানিক সাইনআপ বৃদ্ধি' },
+      { metric: 'সিএসি খরচ হ্রাস', value: '৪৫%', sub: 'বিশাল ক্যাশ রিসোর্স সংরক্ষণ' }
     ],
-    mainMetric: '+230% Organic Traffic',
+    mainMetric: '+২৩০% অর্গানিক ট্রাফিক বৃদ্ধি',
     bgColor: 'from-cyan-500 to-blue-600'
   },
   {
     id: 'case-leadgen',
-    title: 'Generating 12,000 High-Ticket Leads via Facebook Funnels',
+    title: 'সোশ্যাল মিডিয়া ফানেল ব্যবহার করে ১২,০০০ হাই-টিকেট লিড জেনারেশন',
     client: 'Apex Financial Advisors',
-    category: 'Lead Generation',
-    problem: 'Apex wanted family retirement planners but was buying list scrapes, resulting in cold calls, high bounce-rates, and zero deals.',
-    strategy: 'We structured an interactive "Retirement Readiness Calculator" quiz funnel. Traffic was pre-qualified through custom video ads addressing target anxieties, which redirected to landing pages optimized for maximum security and ease.',
+    category: 'লিড জেনারেশন',
+    problem: 'অ্যাপেক্স ফাইন্যান্সিয়াল তাদের রিটার্ন প্ল্যান সেবার জন্য সঠিক ক্লায়েন্ট খুঁজে পাচ্ছিল না। কোল্ড কল থেকে কোনো সফল কনভার্সন আসছিল না।',
+    strategy: 'আমরা একটি ইন্টারেক্টিভ "রিটায়ারমেন্ট রেডিনেস ক্যালকুলেটর" কুইজ ফানেল ডিজাইন করি। অডিয়েন্সদের সমস্যা ও প্রশ্নাবলী নিয়ে ভিডিও ক্যাম্পেইন ডিজাইন করি যা সরাসরি হাই-কনভার্টিং ল্যান্ডিং পেজে নিয়ে যায়।',
     results: [
-      { metric: 'Qualified Leads', value: '12K+', sub: 'Verifiable phone/email' },
-      { metric: 'Conversion Rate', value: '18%', sub: 'Completed the full questionnaire' },
-      { metric: 'Cost per Lead', value: '-35%', sub: 'Cuts lead costs by third' }
+      { metric: 'কোয়ালিফাইড লিড', value: '১২K+', sub: 'সঠিক নাম, নম্বর ও ইমেল লিড' },
+      { metric: 'কনভার্সন রেট', value: '১৮%', sub: 'সম্পূর্ণ প্রশ্নমালা পূরণ সম্পন্ন' },
+      { metric: 'কস্ট পার লিড হ্রাস', value: '-৩৫%', sub: 'লিড প্রতি এক-তৃতীয়াংশ খরচ হ্রাস' }
     ],
-    mainMetric: '12,000+ Leads',
+    mainMetric: '১২,০০০+ কোয়ালিফাইড লিড',
     bgColor: 'from-emerald-600 to-cyan-600'
   },
   {
     id: 'case-pmax',
-    title: 'Google PMax Optimization for Home Goods Store',
+    title: 'হোম ডেকোর ব্র্যান্ডের গুগল পি-ম্যাক্স (PMax) অপ্টিমাইজেশন',
     client: 'NestDesign Co.',
-    category: 'Paid Advertising',
-    problem: 'The brand was bleeding cash on general Google Shopping feeds because of low click CTR, negative brand searches, and overlapping keyword targets.',
-    strategy: 'Cleaned search feeds with high-quality descriptors, established targeted asset groups with user-customized lifestyle mockups, populated direct negative brand matches, and focused bidding on high margin inventory bundles.',
+    category: 'পেইড অ্যাডভার্টাইজিং',
+    problem: 'কম ক্লিকের হার (CTR) এবং ব্র্যান্ড সার্চ কিওয়ার্ডে প্রতিযোগীদের অনুপ্রবেশের কারণে ব্র্যান্ডটি সাধারণ গুগল শপিং ক্যাম্পেইনে অতিরিক্ত অর্থ ব্যয় সত্ত্বেও ট্রাফিক পাচ্ছিল না।',
+    strategy: 'আমরা শপিং ফিডের সম্পূর্ণ কিওয়ার্ড মডিফিকেশন করি, লাইফস্টাইল মকআপ দিয়ে চমৎকার অ্যাসেট সেটআপ করি এবং নেগেটিভ কিওয়ার্ড ফিল্টার করে হাই-মার্জিন ইনভেন্টরিতে বিডিং ফোকাস করি।',
     results: [
-      { metric: 'Online Revenue', value: '3.1x', sub: 'Increase in feed sales' },
-      { metric: 'Click-Through Rate', value: '+74%', sub: 'Listing visibility improved' },
-      { metric: 'Ad Cost savings', value: '$12K', sub: 'Wasted spend recovered' }
+      { metric: 'অনলাইন রেভেনিউ প্রবৃদ্ধি', value: '৩.১ গুণ', sub: 'ফিড সেলস বৃদ্ধি নিশ্চিত' },
+      { metric: 'ক্লিক-থ্রু রেট (CTR)', value: '+৭৪%', sub: 'প্রদর্শনীর ভিজিবিলিটি উন্নত' },
+      { metric: 'বিজ্ঞাপনী অর্থ সাশ্রয়', value: '$১২K+', sub: 'অপ্রয়োজনীয় বিজ্ঞাপনী খরচ পুনরুদ্ধার' }
     ],
-    mainMetric: '3.1x Shopping Lift',
+    mainMetric: '৩.১ গুণ শপিং সেলস বৃদ্ধি',
     bgColor: 'from-purple-600 to-indigo-800'
   }
 ];
@@ -278,56 +281,56 @@ export const PORTFOLIO_DATA: CaseStudyItem[] = [
 export const PROCESS_DATA: ProcessStep[] = [
   {
     step: 1,
-    title: 'Deep Research & Digital Auditing',
-    description: 'We begin by looking under the hood of your digital footprint. I perform a deep audit of your site speed, keyword positions, past ad creative logs, and pixel telemetry.',
+    title: 'গভীর গবেষণা ও ডিজিটাল অডিট',
+    description: 'আমরা শুরু করি আপনার ব্র্যান্ডের বর্তমান কার্যক্রম ও গতিবিধির সুনির্দিষ্ট মূল্যায়নের মাধ্যমে। সাইট স্পিড, কিওয়ার্ড পজিশন, পূর্ববর্তী বিজ্ঞাপন এবং ট্র্যাকিং টেলিমেট্রি অডিট করি।',
     details: [
-      'Install diagnostic hotjar/replay mapping tools',
-      'Analyze historical Google Ads / Facebook dashboard losses',
-      'Execute fully detailed keyword opportunities mapping'
+      'হিটম্যাপ এবং ব্যবহারকারী রেকর্ড এনালাইসিস টুল সেটআপ',
+      'পূর্ববর্তী ফেসবুক ও গুগল বিজ্ঞাপনের ভুলত্রুটি বিশ্লেষণ',
+      'প্রবৃদ্ধি ও কিওয়ার্ড অপ্টিমাইজেশনের একটি সম্পূর্ণ ড্যাশবোর্ড তৈরি'
     ],
     iconName: 'Compass'
   },
   {
     step: 2,
-    title: 'Custom Funnel Blueprinting',
-    description: 'We map out a strategic architecture designed specifically for your brand niche. No boilerplate templates; we specify targeted hooks, campaign logic, and budgets.',
+    title: 'কাস্টম ফানেল ব্লুপ্রিন্ট ডিজাইন',
+    description: 'আমরা আপনার ব্যবসার নিশ অনুযায়ী একটি অনন্য স্ট্র্যাটেজিক ব্লুপ্রিন্ট বা রূপরেখা তৈরি করি। কোনো সাধারণ টেমপ্লেট নয়, সুনির্দিষ্ট বিজ্ঞাপনী বাজেট ফোরকাস্টিং সহ সম্পূর্ণ কৌশল নির্ধারণ।',
     details: [
-      'Draft ad copywriting hooks and select landing page structures',
-      'Set exact milestone goals based on custom ROI modeling',
-      'Define tracking events for 100% data alignment'
+      'মনস্তাত্ত্বিক বিজ্ঞাপনী শিরোনাম তৈরি ও ল্যান্ডিং পেজ কন্টেন্ট স্ট্রাকচার রেডি',
+      'কাস্টম আরওআই (ROI) ফোরকাস্ট করে লক্ষ্য নির্ধারণ',
+      '১০০% ডাটা ট্র্যাক করতে স্পেসিফিক ট্র্যাকিং পয়েন্ট সংজ্ঞায়িত করা'
     ],
     iconName: 'LayoutGrid'
   },
   {
     step: 3,
-    title: 'Seamless Technical Execution',
-    description: 'I roll up my sleeves and build. From GTM containers and Meta Pixels to keyword-optimized longform content hubs and ad account structural campaigns.',
+    title: 'নিরবচ্ছিন্ন টেকনিক্যাল বাস্তবায়ন',
+    description: 'আমি নিজেই সম্পূর্ণ টেকনিক্যাল কনফিগারেশন হ্যান্ডেল করি। GTM কন্টেইনার এবং মেটা পিক্সেল সেটআপ থেকে শুরু করে কিওয়ার্ড-অপ্টিমাইজড কনটেন্ট হাব এবং বিজ্ঞাপন অ্যাকাউন্ট সাজানো।',
     details: [
-      'Publish high-speed landing pages and trigger pipelines',
-      'Implement full-funnel custom events tracking triggers',
-      'Launch brand-new audience clusters and ad sets'
+      'অতি দ্রুতগতির ল্যান্ডিং পেজ প্রকাশ এবং ব্যাকএন্ড ফানেল চালু',
+      'পূর্ণাঙ্গ কাস্টম ইভেন্ট এবং সার্ভার-সাইড ট্র্যাকিং সক্রিয়',
+      'একদম নতুন টার্গেটেড অডিয়েন্স ক্লাস্টার ও অ্যাড সেটআপ লঞ্চ'
     ],
     iconName: 'Code'
   },
   {
     step: 4,
-    title: 'Continuous Optimization Tests',
-    description: 'We launch, gather data, and optimize. I track behavior, review search query reports, isolate high-performing ad designs, and tweak landing pages.',
+    title: 'ক্রমাগত অপ্টিমাইজেশন ও টেস্টিং',
+    description: 'আমরা বিজ্ঞাপনী প্রচারণা চালানোর সাথে সাথে ডাটা সংগ্রহ ও উন্নত করার কাজ করি। আমি সার্বক্ষণিক কিওয়ার্ড পারফরম্যান্স চেক করি, সফল ক্রিয়েটিভ ফিল্টার করি এবং রূপান্তর হার বাড়াই।',
     details: [
-      'A/B test headers, action buttons, and visual creative options',
-      'Isolate negative search keywords and bad-target ad spots',
-      'Speed up checkouts and fix checkout cart dropoff rates'
+      'শিরোনাম, বাটন কালার ও বিজ্ঞাপনী ক্রিয়েটিভের এ/বি স্প্লিট টেস্টিং',
+      'বাজেট অপচয়কারী কিওয়ার্ডগুলি ফিল্টার বা বাদ দেওয়া',
+      'চেকআউট কার্ট ড্রপঅফ কমানোর সমস্যাগুলো সমাধান করা'
     ],
     iconName: 'Activity'
   },
   {
     step: 5,
-    title: 'Scaling for Explosive Growth',
-    description: 'With a highly stable CPA and strong base conversion rates, we scale the winners. We expand budget lines and conquer broader demographic markets safely.',
+    title: 'সহজ ও নিরাপদ উপায়ে প্রবৃদ্ধি বৃদ্ধি',
+    description: 'একবার খরচ নিয়ন্ত্রণে চলে আসলে এবং কনভার্সন রেট স্থিতিশীল হলে আমরা লাভজনক ক্যাম্পেইনগুলি স্কেল আউট করি। বাজেট ক্রমাগত বাড়িয়ে আমাদের সীমানা আরও বিস্তৃত করি।',
     details: [
-      'Advance profitable campaigns via high-scale CBO budgets',
-      'Leverage similar Lookalike customer definitions worldwide',
-      'Build recurring brand loyalty nurture automations'
+      'CBO ও Advantage+ ক্যাম্পেইন চালুর মাধ্যমে বাজেট আরও স্কেল করা',
+      'উচ্চ-রূপান্তরকারী গ্রাহকদের মতো সমমানের লুক-অ্যালাইক অডিয়েন্সদের টার্গেট করা',
+      'গ্রাহকদের ব্র্যান্ডের প্রতি অনুগত করতে রিকারিং ইমেল নার্চারিং শিডিউল করা'
     ],
     iconName: 'LineChart'
   }
@@ -336,29 +339,29 @@ export const PROCESS_DATA: ProcessStep[] = [
 export const TESTIMONIALS_DATA: TestimonialItem[] = [
   {
     id: 'test-1',
-    name: 'Suhail Rahman',
-    role: 'CEO & Founder',
+    name: 'সুহাইল রহমান',
+    role: 'সিইও এবং প্রতিষ্ঠাতা',
     company: 'Velo Custom Apparel',
     rating: 5,
-    review: 'Mukter transformed our online store. Before working with him, we were losing money on Facebook Ads. Within 3 months, he overhauled our pixel tracking, crafted stellar creative testing flows, and boosted our average ROAS to 4.5x. I highly recommend his growth consultation to anyone trying to scale!',
+    review: 'মুক্তের আমাদের অনলাইন ফ্যাশন বিজনেসটির সম্পূর্ণ ভোল বদলে দিয়েছে। তার সাথে কাজ শুরু করার আগে আমরা ফেসবুক বিজ্ঞাপনে বড় লোকসান দিচ্ছিলাম। মাত্র ৩ মাসের ব্যবধানে সে আমাদের ট্র্যাকিং সমস্যা ঠিক করে, ক্রিয়েটিভ টেস্টিং চমৎকারভাবে সাজিয়ে তোলে এবং আমাদের গড় ROAS ৪.৫ গুণে উন্নীত করে। আমি সবাইকে তার কনসালটেশনের পরামর্শ দিই!',
     avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&h=120&q=80'
   },
   {
     id: 'test-2',
-    name: 'Sarah Jenkins',
-    role: 'Head of Marketing',
+    name: 'সারা জেনকিন্স',
+    role: 'হেড অব মার্কেটিং',
     company: 'TaskFlow Tech',
     rating: 5,
-    review: 'Our organic search leads went from literally zero to our biggest acquisition channel. Mukter mapped out content strategies that perfectly targeted the specific problems our software solves. He is incredibly organized, data-driven, and acts like a true partner in our business.',
+    review: 'আমাদের অর্গানিক সার্চ লিড শূন্য থেকে সরাসরি অন্যতম প্রধান কাস্টমার অ্যাকুইজিশন চ্যানেলে রূপান্তরিত হয়েছে। মুক্তের এমন চমৎকার কনটেন্ট কৌশল তৈরি করেছেন যা সরাসরি আমাদের সফটওয়্যার ক্রেতাদের আকর্ষণ করে। সে অত্যন্ত গোছানো, ডাটা-চালিত এবং ব্যবসায়িক অংশীদার হিসেবে অতুলনীয়।',
     avatarUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&h=120&q=80'
   },
   {
     id: 'test-3',
-    name: 'Robert Miller',
-    role: 'Managing Partner',
+    name: 'রবার্ট মিলার',
+    role: 'ম্যানেজিং পার্টনার',
     company: 'Apex Wealth Group',
     rating: 5,
-    review: 'Our custom retirement quiz funnel is currently generating hundreds of verified, warm leads every single week. Mukter resolved our tracking discrepancies and gave our sales reps high-quality numbers that actually answer their phones. He saved us thousands of dollars in wasted media spend.',
+    review: 'আমাদের তৈরি কুইজ ফানেলটি প্রতি সপ্তাহে শত শত কোয়ালিফাইড লিড নিয়ে আসছে। মুক্তের আমাদের সমস্ত ডাটা ভুলের সমাধান করেছে এবং সেলস টিমের কাছে এমন গ্রাহক নিয়ে এসেছে যারা সত্যিই আমাদের সেবা গ্রহণের জন্য প্রস্তুত। সে আমাদের লক্ষ টাকা অপচয় রোধে সহায়তা করেছে।',
     avatarUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&h=120&q=80'
   }
 ];
@@ -366,56 +369,56 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
 export const BLOG_DATA: BlogPostItem[] = [
   {
     id: 'blog-1',
-    category: 'SEO Strategy',
-    title: 'Topical Authority: The Hidden Key to Dominating Google Rankings in 2026',
-    excerpt: 'Generic keyword stuffing is dead. Discover how mapping out full topic clusters helps Google understand your brand as a leading industry authority.',
-    content: 'Google\'s Core updates increasingly reward sites that demonstrate complete topical expertise. In this detailed look, we examine of why publishing 10 interlinked articles covering distinct angles of a single concept is far superior to writing 50 isolated random pieces. We explore site schemas, deep anchor maps, and internal link routing formulas that drive sustained index positions.',
-    readTime: '6 min read',
-    date: 'May 18, 2026',
+    category: 'এসইও কৌশল',
+    title: 'টপিক অথরিটি: ২০২৬ সালে গুগল সার্চ ইঞ্জিনে একচ্ছত্র আধিপত্য বিস্তারের মূল চাবিকাঠি',
+    excerpt: 'নামমাত্র কিওয়ার্ড স্টাফিং এখন সম্পূর্ণ অকেজো। জেনে নিন কীভাবে সুনির্দিষ্ট টপিক ক্লাস্টার কভারেজ ম্যাপ ডিজাইন করে ওয়েবসাইটকে গুগলের চোখে প্রথম সারিতে আনবেন।',
+    content: 'গুগল কোর আপডেটগুলি ক্রমাগত সেই সমস্ত সাইটকে পুরস্কৃত করে যারা নির্দিষ্ট বিষয়ে সর্বোচ্চ এক্সপার্টাইজ প্রদর্শন করে। এই আর্টিকেলে আমরা সুনির্দিষ্ট ৫টি টপিক সংযোগ মডিউল নিয়ে কথা বলব এবং ইন্টারনাল লিঙ্কের সঠিক ফর্মুলা উপস্থাপন করব যা দীর্ঘমেয়াদে আপনার সার্চ র‍্যাঙ্ক ধরে রাখবে।',
+    readTime: '৬ মিনিট রিড',
+    date: 'মে ১৮, ২০২৬',
     imageUrl: 'https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=600&h=400&q=80',
     tags: ['SEO', 'Google Algorithm', 'Content Strategy']
   },
   {
     id: 'blog-2',
-    category: 'Paid Advertising',
-    title: 'The DCT Framework: How to Build Facebook Campaigns That Scale Seamlessly',
-    excerpt: 'Stop manually setting up hundreds of static ad sets. Discover how Dynamic Creative Testing lets Meta\'s machine learning find your best creatives.',
-    content: 'Scaling Facebook ads in 2026 requires giving Meta\'s ad delivery models the exact assets they need to personalize delivery. In this guide, we detail how to set up 3:2:2 Dynamic testing cells (3 hooks, 2 body descriptions, and 2 visual elements). We outline the budget triggers, evaluation ratios, and scaling rules to take winning creatives directly to high-budget Advantage+ campaigns without decay.',
-    readTime: '8 min read',
-    date: 'May 12, 2026',
+    category: 'পেইড অ্যাডস',
+    title: 'ডিসিটি (DCT) ট্র্যাকিং: যেভাবে মেটা বিজ্ঞাপনী বাজেট সহজে এবং সফলভাবে বৃদ্ধি করা সম্ভব',
+    excerpt: 'ম্যানুয়ালি শত শত স্ট্যাটিক বিজ্ঞাপন সেট করা বন্ধ করুন। জেনে নিন ডায়নামিক ক্রিয়েটিভ টেস্টিং মেথড কীভাবে সবচেয়ে লাভজনক অ্যাড কন্টেন্টটি খুঁজে বের করে।',
+    content: '২০২৬ সালে দ্রুত ফেসবুক বিজ্ঞাপনে লাভ নিশ্চিত করার জন্য মেটা মেশিন লার্নিংকে স্বাধীন করুন। এই guides-এ আমরা আলোচনা করব কীভাবে ৩:২:২ ডায়নামিক এড গঠন করে কাস্টমারদের আকর্ষণ এবং বিজ্ঞাপনী খরচ স্কেল করা সম্ভব।',
+    readTime: '৮ মিনিট রিড',
+    date: 'মে ১২, ২০২৬',
     imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80',
     tags: ['Facebook Ads', 'Meta Ads', 'Media Buying']
   },
   {
     id: 'blog-3',
-    category: 'Conversion Tracking',
-    title: 'Why Server-Side Conversion API (CAPI) is Mandatory for Modern Media Buying',
-    excerpt: 'Standard browser cookie pixels are losing up to 40% of conversion signals. Learn how server-to-server tracking restores attribution fidelity.',
-    content: 'With ad-blockers, iOS tracking restrictions, and the gradual death of third-party cookies, relying solely on client-side pixels is like flying blind. We walk through setting up a Google Cloud or Stape server container to feed first-party conversion events directly from your database straight to Facebook and Google, immediately boosting tracking scores and lowering matching CPA.',
-    readTime: '10 min read',
-    date: 'Apr 28, 2026',
+    category: 'অনলাইন ট্র্যাকিং',
+    title: 'সার্ভার-সাইড কনভার্সন এপিআই (CAPI) কেন বর্তমান বিজ্ঞাপনের দুনিয়াতে অত্যন্ত জরুরি',
+    excerpt: 'ব্রাউজার কুকিজ প্রায় ৪০% কাস্টমার কনভার্সন ডেটা হারাচ্ছে। জানুন সার্ভার-টু-সার্ভার ট্র্যাকিং কীভাবে আপনার ডাটা সংগ্রহ ও ট্র্যাকিং নির্ভুল করে তোলে।',
+    content: 'অ্যাড-ব্লকার এবং iOS ট্র্যাকিং আপডেটের কারণে ব্রাউজার পিক্সেলের ট্র্যাকিং এখন অকেজো প্রায়। আমরা কাস্টম গুগল ক্লাউড সার্ভার ট্র্যাকিং সেটআপের মাধ্যমে ফার্স্ট পার্টি কুকিজ কনভার্সন এপিআই দিয়ে মেটা ক্যাম্পেইনে অসাধারণ পিক্সেল ডেটা গুণমান এনে দেওয়ার উপায়গুলো দেখাব।',
+    readTime: '১০ মিনিট রিড',
+    date: 'এপ্রিল ২৮, ২০২৬',
     imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=400&q=80',
     tags: ['GA4', 'Conversions API', 'GTM']
   },
   {
     id: 'blog-4',
-    category: 'Google Ads',
-    title: 'Scrubbing the Bloat: 5 Immediate Google Ads Bidding Fixes to Save 30% of Budget',
-    excerpt: 'Are Google Smart bid algorithms spending your money on useless queries? See instructions to review your match searches immediately.',
-    content: 'Unchecked defaults in Google Ads often lead to heavily bloated search spending. We break down how to identify hidden auto-applied recommendations, configure exact match keywords, establish broad negative word blocks, isolate Performance Max search placements, and force exact targeted geographies.',
-    readTime: '5 min read',
-    date: 'Apr 15, 2026',
+    category: 'গুগল বিজ্ঞাপন',
+    title: 'বাজেট অপচয় রোধ: গুগল শপিং ও সার্চ বিজ্ঞাপনের অপ্রয়োজনীয় ৩০% খরচ কমানোর সেরা ৫টি টিপস',
+    excerpt: 'গুগলের ডিফল্ট স্মার্ট বিডিং কি আপনার পুরো বিজ্ঞাপন বাজেট শেষ করে দিচ্ছে? কোয়েরি ফিল্টারের সঠিক নির্দেশিকা দেখে নিন।',
+    content: 'সাধারণ গুগল সার্চ ও শপিং ক্যাম্পেইনে সঠিক নেগেটিভ কিওয়ার্ড এবং বাজেট টার্геটিং সেট না করার কারণে প্রচুর অর্থ অপ্রয়োজনীয় কোয়েরিতে ব্যয় হয়। এই পোস্টে আমরা কস্ট-পার-ক্লিক (CPC) কমানোর শীর্ষ কৌশল বিশ্লেষণ করব।',
+    readTime: '৫ মিনিট রিড',
+    date: 'এপ্রিল ১৫, ২০২৬',
     imageUrl: 'https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&w=600&h=400&q=80',
     tags: ['Google Ads', 'PPC', 'ROI Optimization']
   },
   {
     id: 'blog-5',
-    category: 'Lead Generation',
-    title: 'How Multi-Step Quizzes Beat Generic Landing Page Forms Every Single Day',
-    excerpt: 'Fewer fields don\'t always equal higher conversion. See why segmented quizzes lower friction and increase absolute lead quality.',
-    content: 'We analyze psychological behavioral friction. By breaking up a 10-field conversion form into structured, gamified questions, we build momentum in responders. We review structural designs, multi-branch logic, security seals representation, and post-submission direct CTA mappings that qualify prospects immediately.',
-    readTime: '7 min read',
-    date: 'Mar 22, 2026',
+    category: 'লিড জেনারেশন',
+    title: 'কেন মাল্টি-স্টেপ কুইজ ফানেল সাধারণ ল্যান্ডিং পেজ ফর্মের চেয়ে বহুগুণ বেশি লিড রূপান্তর করে',
+    excerpt: 'লুকানো মনস্তাত্ত্বিক হুক এবং গ্যামিফিকেশন ফ্লো কীভাবে কাস্টমারদের দীর্ঘ প্রশ্নের উত্তর দিতে উদ্বুদ্ধ করে এবং হাই-কোয়ালিটি লিড দেয়।',
+    content: 'মনস্তাত্ত্বিক বিজ্ঞাপনী নকশায় আমরা দেখেছি যে সাধারণ লম্বা ফর্ম কাস্টমারদের মধ্যে জড়তা তৈরি করে। মাল্টি-স্টেপ প্রগ্রেসিভ বার সম্বলিত কুইজ ব্যবহারের মাধ্যমে কীভাবে আমরা রূপান্তরের হার ১৮% এ উন্নীত করেছি তা জানুন।',
+    readTime: '৭ মিনিট রিড',
+    date: 'মার্চ ২২, ২০২৬',
     imageUrl: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&h=400&q=80',
     tags: ['Lead Gen', 'Landing Pages', 'UX Design']
   }

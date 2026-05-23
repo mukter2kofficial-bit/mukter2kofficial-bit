@@ -8,11 +8,11 @@ export default function Skills() {
   const [selectedFilter, setSelectedFilter] = useState<'all' | SkillCategory>('all');
 
   const filterKeys: { key: 'all' | SkillCategory; label: string }[] = [
-    { key: 'all', label: 'All Expertise' },
-    { key: 'traffic', label: 'Traffic & SEO' },
-    { key: 'ads', label: 'Paid Social & PPC' },
-    { key: 'conversion', label: 'Analytics & Tracking' },
-    { key: 'strategy', label: 'Funnel & Strategy' },
+    { key: 'all', label: 'সব দক্ষতা' },
+    { key: 'traffic', label: 'অর্গানিক ট্রাফিক ও এসইও (Traffic & SEO)' },
+    { key: 'ads', label: 'পেইড অ্যাডস ও পিপিসি (Paid Ads & PPC)' },
+    { key: 'conversion', label: 'কনভার্সন ও ট্র্যাকিং (Analytics & Tracking)' },
+    { key: 'strategy', label: 'ফানেল ও স্ট্র্যাটেজি (Funnel & Strategy)' },
   ];
 
   const filteredSkills = SKILLS_DATA.filter((skill) => {
@@ -32,14 +32,14 @@ export default function Skills() {
         <div className="text-center max-w-3xl mx-auto mb-14 animate-fade-in">
           <div className="inline-flex items-center space-x-1.5 bg-cyan-500/10 border border-cyan-500/20 px-3 py-1 rounded-full mb-4">
             <Cpu className="w-3.5 h-3.5 text-cyan-400 animate-spin-slow" />
-            <span className="font-sans text-xs font-semibold text-cyan-300 tracking-wider uppercase">Marketing Arsenal</span>
+            <span className="font-sans text-xs font-semibold text-cyan-300 tracking-wider uppercase">প্রধান দক্ষতাসমূহ</span>
           </div>
           
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-white tracking-tight">
-            Key Skills & Core Capabilities
+            মূল দক্ষতা এবং টেকনিক্যাল ক্যাপাবিলিটি
           </h2>
           <p className="font-sans text-sm text-slate-400 mt-3 max-w-xl mx-auto leading-relaxed">
-            I combine behavioral customer psychology with advanced tracking setups to implement high-converting, predictable growth loops.
+            আমি আধুনিক মনস্তাত্ত্বিক কাস্টমার সাইকোলজি ও উন্নত ট্র্যাকিং পিক্সেল ব্যবহার করে হাই-কনভার্টিং লাভজনক গ্রোথ লুপ তৈরি করি।
           </p>
           <div className="w-12 h-1 bg-cyan-400 mx-auto mt-4 rounded-full" />
         </div>
@@ -99,8 +99,8 @@ export default function Skills() {
                 {/* Cylindrical Progress Cylinder */}
                 <div className="w-full">
                   <div className="flex justify-between items-center text-[10px] font-mono font-semibold text-slate-500 mb-1.5 uppercase tracking-wider">
-                    <span>Performance Matrix</span>
-                    <span className="text-cyan-300 font-sans">EXPERIENCE GRADE: {skill.level >= 90 ? 'ELITE' : 'EXPERT'}</span>
+                    <span>পারফরম্যান্স ম্যাট্রিক্স</span>
+                    <span className="text-cyan-300 font-sans">দক্ষতার লেভেল: {skill.level >= 90 ? 'এলিট' : 'এক্সপার্ট'}</span>
                   </div>
                   
                   <div className="w-full h-1.5 rounded-full bg-slate-950 overflow-hidden p-[1px] border border-slate-900">
@@ -128,7 +128,7 @@ export default function Skills() {
         >
           <Lightbulb className="w-4 h-4 text-cyan-400 animate-pulse" />
           <span className="font-sans text-xs font-medium text-slate-400">
-            Need customized campaign consultations using these specialized capabilities?
+            এই বিশেষ দক্ষতাসমূহ ব্যবহার করে আপনার ব্যবসার প্রবৃদ্ধি বৃদ্ধি করতে চান?
           </span>
           <button
             id="skills-consult-btn"
@@ -138,7 +138,7 @@ export default function Skills() {
             }}
             className="font-sans text-xs underline font-bold text-cyan-400 hover:text-cyan-300 cursor-pointer"
           >
-            Schedule a audit
+            আজই অডিট বুক করুন
           </button>
         </motion.div>
 

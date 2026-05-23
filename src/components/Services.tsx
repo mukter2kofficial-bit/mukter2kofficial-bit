@@ -80,14 +80,14 @@ export default function Services() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center space-x-1.5 bg-indigo-500/10 border border-indigo-500/20 px-3 py-1 rounded-full mb-4">
             <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-            <span className="font-sans text-xs font-semibold text-indigo-300 tracking-wider uppercase">Strategic Services</span>
+            <span className="font-sans text-xs font-semibold text-indigo-300 tracking-wider uppercase">কৌশলগত সেবাসমূহ</span>
           </div>
           
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-white tracking-tight">
-            High-converting Growth Services
+            হাই-কনভার্টিং গ্রোথ সেবাসমূহ
           </h2>
           <p className="font-sans text-sm text-slate-400 mt-3 max-w-xl mx-auto leading-relaxed">
-            I don't sell vanity metrics. I develop custom mathematical traffic-to-revenue pipelines built to compound cash flow.
+            আমি কোনো ফাঁকা কথার মেট্রিক্স বিক্রি করি না। আমি তৈরি করি ডাটা-চালিত কাস্টম সেলস ফানেল যা আপনার ব্যবসার লাভ ও প্রবৃদ্ধি নিশ্চিত করে।
           </p>
           <div className="w-12 h-1 bg-indigo-500 mx-auto mt-4 rounded-full" />
         </div>
@@ -131,7 +131,7 @@ export default function Services() {
                   onClick={() => setSelectedService(service)}
                   className="inline-flex items-center space-x-1.5 text-xs font-sans font-bold text-slate-300 hover:text-cyan-400 transition-colors group/btn cursor-pointer"
                 >
-                  <span>Learn Strategy Details</span>
+                  <span>বিস্তৃত কৌশল দেখুন</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
                 </button>
                 <div className="w-1.5 h-1.5 rounded-full bg-slate-800 group-hover:bg-cyan-400 transition-colors" />
@@ -152,9 +152,9 @@ export default function Services() {
           <div className="absolute top-0 left-0 w-1 h-full bg-cyan-400" />
           
           <div className="max-w-2xl mx-auto flex flex-col items-center">
-            <h3 className="font-sans font-bold text-xl text-white">Not sure which strategy matches your business goals?</h3>
+            <h3 className="font-sans font-bold text-xl text-white">বুঝতে পারছেন না কোন কৌশলটি আপনার ব্যবসার জন্য সঠিক?</h3>
             <p className="font-sans text-sm text-slate-400 mt-2">
-              Get a custom growth blueprint specifically tailored for your current marketing situation during a free video audit call.
+              একটি ফ্রি ভিডিও কলের মাধ্যমে আপনার বর্তমান ব্যবসার উপর ভিত্তি করে একটি কাস্টম গ্রোথ ব্লুপ্রিন্ট বা অ্যাকশন প্ল্যান বুঝে নিন।
             </p>
             <button
               id="services-general-cta-btn"
@@ -164,7 +164,7 @@ export default function Services() {
               }}
               className="mt-5 inline-flex items-center space-x-2 px-6 py-3 rounded-xl bg-cyan-400 text-slate-950 font-sans text-xs font-bold hover:bg-cyan-300 shadow-md shadow-cyan-400/10 active:scale-95 transition-all cursor-pointer"
             >
-              <span>Schedule 1:1 Consultation</span>
+              <span>১-অন-১ পরামর্শ শিডিউল করুন</span>
               <Play className="w-3 h-3 fill-slate-950" />
             </button>
           </div>
@@ -212,7 +212,7 @@ export default function Services() {
                   {getServiceIcon(selectedService.iconName, 'w-6 h-6')}
                 </div>
                 <div>
-                  <span className="font-mono text-[9px] uppercase tracking-wider font-semibold text-cyan-400">Campaign Blueprint</span>
+                  <span className="font-mono text-[9px] uppercase tracking-wider font-semibold text-cyan-400">ক্যাম্পেইন ব্লুপ্রিন্ট</span>
                   <h3 className="font-sans text-xl font-extrabold text-white leading-tight">
                     {selectedService.title}
                   </h3>
@@ -222,7 +222,7 @@ export default function Services() {
               {/* Long Description and strategy focus */}
               <div className="space-y-5">
                 <div>
-                  <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Strategy Overview</h4>
+                  <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">কৌশলগত পর্যালোচনা</h4>
                   <p className="font-sans text-slate-300 text-sm leading-relaxed">
                     {selectedService.longDesc}
                   </p>
@@ -230,7 +230,7 @@ export default function Services() {
 
                 {/* Sub-features Checklist */}
                 <div>
-                  <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5">What is Included in Delivery</h4>
+                  <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5">সেবাটিতে যা যা অন্তর্ভুক্ত থাকছে</h4>
                   <ul className="space-y-2 font-sans text-sm text-slate-200">
                     {selectedService.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start space-x-2.5">
@@ -249,14 +249,14 @@ export default function Services() {
                   onClick={() => selectServiceAndScroll(selectedService)}
                   className="w-full sm:flex-1 py-3.5 rounded-xl text-center bg-cyan-400 hover:bg-cyan-300 text-slate-950 font-sans text-xs font-bold transition duration-200 cursor-pointer shadow-lg shadow-cyan-400/5 active:scale-95"
                 >
-                  Consult on this Campaign
+                  এই ক্যাম্পেইন নিয়ে আলোচনা করুন
                 </button>
                 <button
                   id="modal-cancel-btn"
                   onClick={() => setSelectedService(null)}
                   className="w-full sm:w-auto px-5 py-3.5 rounded-xl text-center bg-slate-950 border border-slate-850 hover:bg-slate-900 text-slate-300 font-sans text-xs font-medium transition duration-200 cursor-pointer"
                 >
-                  Close
+                  বন্ধ করুন
                 </button>
               </div>
 

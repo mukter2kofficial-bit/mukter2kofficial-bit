@@ -29,7 +29,7 @@ export default function About() {
             className="inline-flex items-center space-x-1.5 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full mb-4"
           >
             <Sparkles className="w-3.5 h-3.5 text-blue-400" />
-            <span className="font-sans text-xs font-semibold text-blue-300 tracking-wider uppercase">About Me</span>
+            <span className="font-sans text-xs font-semibold text-blue-300 tracking-wider uppercase">আমার পরিচিতি</span>
           </motion.div>
           
           <motion.h2
@@ -73,11 +73,11 @@ export default function About() {
                 <div className="absolute bottom-5 left-5 right-5 p-4 rounded-xl bg-slate-900/90 border border-slate-800/80 backdrop-blur-sm shadow-xl">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="font-mono text-[10px] text-cyan-400 font-semibold tracking-wider uppercase">Conversion Growth</p>
-                      <h4 className="font-sans font-bold text-sm text-white mt-0.5">Custom Analytical Rigor</h4>
+                      <p className="font-mono text-[10px] text-cyan-400 font-semibold tracking-wider uppercase">কনভার্সন গ্রোথ</p>
+                      <h4 className="font-sans font-bold text-sm text-white mt-0.5">নিখুঁত অ্যানালিটিক্যাল ক্ষমতা</h4>
                     </div>
                     <span className="bg-emerald-500/15 border border-emerald-500/20 px-2 py-0.5 rounded text-[10px] font-semibold text-emerald-400">
-                      CAPI Ready
+                      CAPI সমৃদ্ধ
                     </span>
                   </div>
                 </div>
@@ -135,7 +135,7 @@ export default function About() {
                 onClick={scrollToContact}
                 className="inline-flex items-center space-x-2 text-cyan-400 hover:text-cyan-300 text-sm font-sans font-bold group cursor-pointer"
               >
-                <span>Let's evaluate your marketing audit score</span>
+                <span>চলুন আপনার ফেসবুক ও গোল্ড অ্যানালিটিক্স অডিট শুরু করি</span>
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </button>
             </div>

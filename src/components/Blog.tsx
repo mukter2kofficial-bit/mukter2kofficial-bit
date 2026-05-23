@@ -35,14 +35,14 @@ export default function Blog() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center space-x-1.5 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full mb-4">
             <BookOpen className="w-3.5 h-3.5 text-blue-400" />
-            <span className="font-sans text-xs font-semibold text-blue-300 tracking-wider uppercase font-mono">SEO Intelligence Hub</span>
+            <span className="font-sans text-xs font-semibold text-blue-300 tracking-wider uppercase">মার্কেটিং জ্ঞানভাণ্ডার</span>
           </div>
           
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-white tracking-tight">
-            Latest Marketing Growth Insights
+            সর্বশেষ মার্কেটিং ও প্রবৃদ্ধি বিশ্লেষণ
           </h2>
           <p className="font-sans text-sm text-slate-400 mt-3 max-w-xl mx-auto leading-relaxed">
-            I write detailed strategies on traffic generation, conversion telemetry hacks, and direct-response methods. Read the playbook.
+            আমি ট্রাফিক জেনারেশন, কনভার্সন অপ্টিমাইজেশন এবং ডিরেক্ট-রেসপন্স পদ্ধতির গভীর কৌশল ও নিখুঁত পরামর্শ লিখে থাকি। প্লেবুকটি পড়ুন।
           </p>
           <div className="w-12 h-1 bg-blue-600 mx-auto mt-4 rounded-full" />
         </div>
@@ -117,7 +117,7 @@ export default function Blog() {
                     onClick={() => setSelectedPost(post)}
                     className="inline-flex items-center space-x-1 text-xs font-sans font-extrabold text-cyan-400 group-hover:text-cyan-300 transition-colors cursor-pointer"
                   >
-                    <span>Read Guide</span>
+                    <span>সম্পূর্ণ গাইডটি পড়ুন</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </button>
                 </div>
@@ -141,11 +141,11 @@ export default function Blog() {
           <div className="text-left max-w-md">
             <span className="inline-flex items-center space-x-1 text-xs font-semibold text-cyan-400 bg-cyan-400/10 px-2 rounded-md mb-2">
               <Sparkles className="w-3 h-3 text-cyan-400" />
-              <span>Free Marketing Playbooks</span>
+              <span>ফ্রি মার্কেটিং প্লেবুক</span>
             </span>
-            <h3 className="font-sans text-lg font-bold text-white">Join Mukter's Growth Newsletter</h3>
+            <h3 className="font-sans text-lg font-bold text-white">মুক্তেরের গ্রোথ নিউজলেটারে যোগ দিন</h3>
             <p className="font-sans text-sm text-slate-400 mt-1.5 leading-relaxed">
-              Every fortnight, I send actionable marketing diagnostics, conversion setup briefs, and case study teardowns. No spam. Only data.
+              প্রতি দুই সপ্তাহে আমি বাস্তবসম্মত মার্কেটিং ডায়াগনস্টিকস, কাস্টম পিক্সেল সেটআপ এবং কেস স্টাডি বিশ্লেষণ সরাসরি ইমেলে পাঠাই। কোনো স্প্যাম নেই, কেবল কার্যকর ডাটা।
             </p>
           </div>
 
@@ -156,7 +156,7 @@ export default function Blog() {
                 animate={{ scale: 1, opacity: 1 }}
                 className="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold text-center font-sans tracking-wide"
               >
-                ✓ Success! Welcome to the Growth inner circle.
+                ✓ সফল হয়েছে! আমাদের গ্রোথ নিউজলেটারে আপনাকে স্বাগতম।
               </motion.div>
             ) : (
               <form onSubmit={handleNewsletterSubmit} className="flex gap-2 w-full">
@@ -164,7 +164,7 @@ export default function Blog() {
                   type="email"
                   value={newsletterEmail}
                   onChange={(e) => setNewsletterEmail(e.target.value)}
-                  placeholder="Enter professional email"
+                  placeholder="আপনার পেশাদার ইমেল দিন"
                   required
                   className="flex-1 px-4 py-3 text-sm rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition"
                 />
@@ -173,7 +173,7 @@ export default function Blog() {
                   type="submit"
                   className="px-5 py-3 rounded-xl bg-cyan-400 text-slate-950 hover:bg-cyan-300 font-sans text-xs font-bold transition flex items-center space-x-1 shrink-0 cursor-pointer shadow-md active:scale-95"
                 >
-                  <span>Subscribe</span>
+                  <span>সাবস্ক্রাইব করুন</span>
                   <Send className="w-3.5 h-3.5" />
                 </button>
               </form>
@@ -268,15 +268,15 @@ export default function Blog() {
                     {selectedPost.content}
                   </p>
                   <p className="text-slate-400 text-xs italic mt-8 font-mono">
-                    Article written & authorized by Md Mukter Ahmed - Digital Marketer & Growth Strategist. Published May 2026.
+                    প্রবন্ধটি মোঃ মুক্তের আহমেদ (ডিজিটাল মার্কেটার এবং গ্রোথ স্পেশালিস্ট) কর্তৃক লিখিত ও অনুমোদিত। প্রকাশিত মে ২০২৬।
                   </p>
                 </div>
 
               </div>
 
               {/* Footer */}
-              <div className="mt-8 pt-5 border-t border-slate-850 flex flex-col sm:flex-row items-center justify-between gap-4">
-                <span className="font-sans text-xs text-slate-400 hidden sm:inline">Want to implement this framework? Let's talk.</span>
+               <div className="mt-8 pt-5 border-t border-slate-850 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <span className="font-sans text-xs text-slate-400 hidden sm:inline">এই ফ্রেমওয়ার্ক আপনার ব্যবসায় বাস্তবায়ন করতে চান? চলুন কথা বলি।</span>
                 <div className="flex items-center gap-2.5 w-full sm:w-auto">
                   <button
                     id="blog-modal-cta-btn"
@@ -287,14 +287,14 @@ export default function Blog() {
                     }}
                     className="w-full sm:w-auto px-6 py-3.5 rounded-xl text-center bg-cyan-400 hover:bg-cyan-300 text-slate-950 font-sans text-xs font-bold transition duration-200 cursor-pointer shadow-lg active:scale-95 shrink-0"
                   >
-                    Consult on this Topic
+                    এই বিষয়ে পরামর্শ নিন
                   </button>
                   <button
                     id="blog-modal-cancel-btn"
                     onClick={() => setSelectedPost(null)}
                     className="w-full sm:w-auto px-5 py-3.5 rounded-xl text-center bg-slate-950 border border-slate-850 hover:bg-slate-900 text-slate-300 font-sans text-xs font-medium transition duration-200 cursor-pointer"
                   >
-                    Close
+                    বন্ধ করুন
                   </button>
                 </div>
               </div>

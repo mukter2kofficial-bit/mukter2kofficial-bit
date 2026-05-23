@@ -43,14 +43,14 @@ export default function Process() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center space-x-1.5 bg-cyan-500/10 border border-cyan-500/20 px-3 py-1 rounded-full mb-4">
             <Activity className="w-3.5 h-3.5 text-cyan-400" />
-            <span className="font-sans text-xs font-semibold text-cyan-300 tracking-wider uppercase">Continuous Synergy</span>
+            <span className="font-sans text-xs font-semibold text-cyan-300 tracking-wider uppercase">পরিকল্পিত গ্রোথ</span>
           </div>
           
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-white tracking-tight">
-            The Data-Driven Scaling Process
+            ডাটা-চালিত ধারাবাহিক স্কেলিং পদ্ধতি
           </h2>
           <p className="font-sans text-sm text-slate-400 mt-3 max-w-xl mx-auto leading-relaxed">
-            I replace guesswork with standard engineering frameworks. Here is how we develop, audit, and scale your brand predictably.
+            আমি কোনো অনুমানের উপর নির্ভর করি না, বরং সুনির্দিষ্ট ফ্রেমওয়ার্ক ব্যবহার করি। চলুন দেখি আমরা কীভাবে আপনার ব্র্যান্ডকে অডিট এবং ক্রমাগত স্কেল আউট করি।
           </p>
           <div className="w-12 h-1 bg-cyan-400 mx-auto mt-4 rounded-full" />
         </div>
@@ -123,7 +123,7 @@ export default function Process() {
                       {/* Title Segment */}
                       <div className="flex items-center space-x-2.5">
                         <span className="font-mono text-[9px] font-extrabold uppercase bg-cyan-400/10 text-cyan-400 px-2.5 py-0.5 rounded-full">
-                          Stage 0{proc.step}
+                          Stage ০{proc.step}
                         </span>
                       </div>
 
@@ -145,7 +145,7 @@ export default function Process() {
                           }}
                           className="flex items-center space-x-1.5 text-xs font-sans font-bold text-slate-400 hover:text-cyan-400 transition-colors cursor-pointer"
                         >
-                          <span>{isExpanded ? 'Hide Task Actions' : 'Explore Action Checklist'}</span>
+                          <span>{isExpanded ? 'প্রধান কার্যক্রমসমূহ বন্ধ করুন' : 'বিস্তারিত কার্যক্রমের তালিকা দেখুন'}</span>
                           {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                         </button>
 
@@ -180,7 +180,7 @@ export default function Process() {
         <div className="mt-16 text-center max-w-xl mx-auto">
           <p className="font-sans text-xs text-slate-500 uppercase font-bold tracking-widest flex items-center justify-center">
             <ArrowDown className="w-4 h-4 mr-1.5 text-cyan-400 animate-bounce" />
-            The entire cycle is fully customized for organic scale.
+            সমগ্র চক্রটি অর্গানিক এবং পেইড গ্রোথের জন্য সম্পূর্ণরূপে কাস্টমাইজড।
           </p>
         </div>
 

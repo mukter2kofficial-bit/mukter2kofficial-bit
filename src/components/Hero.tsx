@@ -74,7 +74,7 @@ export default function Hero() {
             >
               <div className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
               <span className="font-sans text-xs font-semibold text-cyan-300 tracking-wide uppercase">
-                Available for New Contracts
+                নতুন প্রোজেক্ট গ্রহণের জন্য প্রস্তুত
               </span>
             </motion.div>
 
@@ -86,7 +86,7 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="block text-slate-400 text-lg sm:text-xl md:text-2xl font-semibold uppercase tracking-widest mb-2 font-mono text-cyan-400"
               >
-                Personal Brand
+                ব্যক্তিগত পোর্টফোলিও
               </motion.span>
               <motion.span
                 initial={{ opacity: 0, y: 20 }}
@@ -129,7 +129,7 @@ export default function Hero() {
                 onClick={() => scrollToId('contact')}
                 className="flex items-center justify-center px-8 py-4 rounded-xl font-sans text-sm font-semibold text-white bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-500 hover:opacity-95 transition-all duration-300 shadow-lg shadow-blue-500/20 active:scale-95 cursor-pointer text-center group"
               >
-                <span>Hire Me Now</span>
+                <span>যোগাযোগ করুন</span>
                 <ArrowRight className="ml-2 w-4.5 h-4.5 group-hover:translate-x-1 transition-transform" />
               </button>
 
@@ -138,7 +138,7 @@ export default function Hero() {
                 onClick={() => scrollToId('portfolio')}
                 className="flex items-center justify-center px-8 py-4 rounded-xl font-sans text-sm font-semibold text-slate-200 bg-slate-900 border border-slate-800 hover:bg-slate-850 hover:text-white transition-all duration-300 active:scale-95 cursor-pointer text-center"
               >
-                View Case Studies
+                কেস স্টাডিজ দেখুন
               </button>
 
               <button
@@ -147,7 +147,7 @@ export default function Hero() {
                 className="flex items-center justify-center px-6 py-4 rounded-xl font-sans text-sm font-medium text-slate-400 hover:text-cyan-400 bg-transparent hover:bg-slate-900/40 border border-slate-800/10 hover:border-slate-800 transition-all duration-300 cursor-pointer text-center"
               >
                 <Download className="mr-2 w-4 h-4" />
-                <span>Get CV</span>
+                <span>সিভি ডাউনলোড</span>
               </button>
             </motion.nav>
 
@@ -158,7 +158,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="flex items-center space-x-4 pt-4 text-slate-400"
             >
-              <span className="font-sans text-xs uppercase tracking-wider font-semibold text-slate-500">Connect:</span>
+              <span className="font-sans text-xs uppercase tracking-wider font-semibold text-slate-500">যোগাযোগ মাধ্যম:</span>
               
               <a
                 id="hero-social-linkedin"

@@ -8,10 +8,10 @@ export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [selectedCaseStudy, setSelectedCaseStudy] = useState<CaseStudyItem | null>(null);
 
-  const categories = ['All', 'SEO Optimization', 'Paid Advertising', 'Lead Generation'];
+  const categories = ['সব', 'এসইও অপ্টিমাইজেশন', 'পেইড অ্যাডভার্টাইজিং', 'লিড জেনারেশন'];
 
   const filteredCaseStudies = PORTFOLIO_DATA.filter((item) => {
-    if (activeCategory === 'All') return true;
+    if (activeCategory === 'সব' || activeCategory === 'All') return true;
     return item.category === activeCategory;
   });
 
@@ -27,14 +27,14 @@ export default function Portfolio() {
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center space-x-1.5 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full mb-4">
             <Award className="w-3.5 h-3.5 text-blue-400" />
-            <span className="font-sans text-xs font-semibold text-blue-300 tracking-wider uppercase">Case Studies</span>
+            <span className="font-sans text-xs font-semibold text-blue-300 tracking-wider uppercase">কেস স্টাডিজ</span>
           </div>
           
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-white tracking-tight">
-            Our Battle-Tested Growth Results
+            আমাদের বাস্তব ক্যাম্পেইন ও গ্রোথ ফলাফল
           </h2>
           <p className="font-sans text-sm text-slate-400 mt-3 max-w-xl mx-auto leading-relaxed">
-            Real campaigns. Verified figures. Take an look into how we help direct-to-consumer and business-to-business brands scale consistently.
+            বাস্তব ক্যাম্পেইন, প্রমাণিত ডাটা। জেনে নিন কীভাবে আমরা ডিরেক্ট-টু-কনজিউমার এবং বিটুবি ব্র্যান্ডসমূহকে লাভজনক উপায়ে সফল করে তুলি।
           </p>
           <div className="w-12 h-1 bg-blue-500 mx-auto mt-4 rounded-full" />
         </div>
@@ -117,7 +117,7 @@ export default function Portfolio() {
                     <div>
                       <span className="flex items-center text-rose-400 font-sans text-xs font-bold uppercase tracking-wider mb-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-rose-400 mr-1.5" />
-                        The Challenge:
+                        মূল সমস্যা ও চ্যালেঞ্জ:
                       </span>
                       <p className="font-sans text-slate-300 text-xs leading-relaxed pl-3 line-clamp-2">
                         {study.problem}
@@ -127,7 +127,7 @@ export default function Portfolio() {
                     <div>
                       <span className="flex items-center text-emerald-400 font-sans text-xs font-bold uppercase tracking-wider mb-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5" />
-                        The Strategy:
+                        গৃহীত সফল স্ট্র্যাটেজি:
                       </span>
                       <p className="font-sans text-slate-300 text-xs leading-relaxed pl-3 line-clamp-2">
                         {study.strategy}
@@ -139,13 +139,13 @@ export default function Portfolio() {
 
                 {/* More Details CTA */}
                 <div className="mt-2 pt-4 border-t border-slate-900/80 flex items-center justify-between">
-                  <span className="font-mono text-[9px] uppercase tracking-wider text-slate-500 font-semibold">GROWTH IMPACT MATRIX</span>
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-slate-500 font-semibold">গ্রোথ ইমপ্যাক্ট ম্যাট্রিক্স</span>
                   <button
                     id={`case-study-details-btn-${study.id}`}
                     onClick={() => setSelectedCaseStudy(study)}
                     className="inline-flex items-center space-x-1 font-sans text-xs font-bold text-blue-400 hover:text-blue-300 transition-colors cursor-pointer group/btn"
                   >
-                    <span>Read Strategic Teardown</span>
+                    <span>সম্পূর্ণ কেস স্টাডি বিশ্লেষণ</span>
                     <ChevronRight className="w-4 h-4 group-hover/btn:translate-x-0.5 transition-transform" />
                   </button>
                 </div>
@@ -198,7 +198,7 @@ export default function Portfolio() {
                     {selectedCaseStudy.category}
                   </span>
                   <span className="font-sans text-xs font-semibold text-slate-400">
-                    Client: {selectedCaseStudy.client}
+                    ক্লায়েন্ট: {selectedCaseStudy.client}
                   </span>
                 </div>
                 <h3 className="font-sans text-xl font-black text-white leading-snug">
@@ -212,7 +212,7 @@ export default function Portfolio() {
                 {/* Full results segment */}
                 <div className="p-4 rounded-2xl bg-slate-950 border border-slate-850">
                   <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-indigo-400 mb-3.5 flex items-center">
-                    <BadgePercent className="w-4 h-4 mr-1.5" /> Verified Results Achieved
+                    <BadgePercent className="w-4 h-4 mr-1.5" /> অর্জিত প্রমাণিত ফলাফল
                   </h4>
                   <div className="grid grid-cols-3 gap-3">
                     {selectedCaseStudy.results.map((res, idx) => (
@@ -229,7 +229,7 @@ export default function Portfolio() {
                 <div>
                   <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-rose-400 mb-1.5 flex items-center">
                     <span className="w-2 h-2 rounded-full bg-rose-400 mr-2" />
-                    The Diagnostic Challenge
+                    মূল ব্যবসায়িক সমস্যা বিশ্লেষণ
                   </h4>
                   <p className="font-sans text-slate-300 text-sm leading-relaxed pl-4">
                     {selectedCaseStudy.problem}
@@ -240,7 +240,7 @@ export default function Portfolio() {
                 <div>
                   <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1.5 flex items-center">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 mr-2" />
-                    The Implemented Strategy Blueprint
+                    বাস্তবায়িত সফল গ্রোথ ব্লুপ্রিন্ট
                   </h4>
                   <p className="font-sans text-slate-300 text-sm leading-relaxed pl-4">
                     {selectedCaseStudy.strategy}
@@ -251,9 +251,9 @@ export default function Portfolio() {
                 <div className="p-4 rounded-xl bg-blue-900/10 border border-blue-900/20 flex items-start space-x-3 mt-4">
                   <Lightbulb className="w-5 h-5 text-blue-400 shrink-0 mt-0.5" />
                   <div className="text-left">
-                    <h5 className="font-sans text-xs font-extrabold text-blue-400">Want similar outcomes for your brand?</h5>
+                    <h5 className="font-sans text-xs font-extrabold text-blue-400">আপনার ব্র্যান্ডের জন্যও কি অনুরূপ ফলাফল চান?</h5>
                     <p className="font-sans text-xs text-slate-400 mt-1 leading-relaxed">
-                      Every audit strategy is customized to the specific market sector. Let's outline the precise channel opportunities for your funnel.
+                      প্রতিটি ব্যবসায়িক অডিট কৌশল কাস্টম ডিজাইন করা হয়। চলুন আপনার ব্যবসার জন্য কাস্টম ফানেল স্ট্র্যাটেজি তৈরি করি।
                     </p>
                   </div>
                 </div>
@@ -271,14 +271,14 @@ export default function Portfolio() {
                   }}
                   className="w-full sm:flex-1 py-3.5 rounded-xl text-center bg-blue-500 hover:bg-blue-600 text-white font-sans text-xs font-bold transition duration-200 cursor-pointer shadow-lg shadow-blue-500/10 active:scale-95"
                 >
-                  Configure My Growth Strategy
+                  আমার প্রবৃদ্ধি স্ট্র্যাটেজি শুরু করুন
                 </button>
                 <button
                   id="case-modal-cancel-btn"
                   onClick={() => setSelectedCaseStudy(null)}
                   className="w-full sm:w-auto px-5 py-3.5 rounded-xl text-center bg-slate-950 border border-slate-850 hover:bg-slate-900 text-slate-300 font-sans text-xs font-medium transition duration-200 cursor-pointer"
                 >
-                  Close
+                  বন্ধ করুন
                 </button>
               </div>
 

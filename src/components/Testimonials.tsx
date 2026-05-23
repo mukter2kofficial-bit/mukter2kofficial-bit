@@ -27,14 +27,14 @@ export default function Testimonials() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center space-x-1.5 bg-indigo-500/10 border border-indigo-500/20 px-3 py-1 rounded-full mb-4">
             <MessageSquareCode className="w-3.5 h-3.5 text-indigo-400" />
-            <span className="font-sans text-xs font-semibold text-indigo-300 tracking-wider uppercase">Social Proof</span>
+            <span className="font-sans text-xs font-semibold text-indigo-300 tracking-wider uppercase">ক্লায়েন্ট মতামত</span>
           </div>
           
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-white tracking-tight">
-            Loved by Active Partners & Clients
+            সম্মানিত পার্টনার ও ক্লায়েন্টদের মতামত
           </h2>
           <p className="font-sans text-sm text-slate-400 mt-3 max-w-xl mx-auto leading-relaxed">
-            Read direct feedback from business founders and marketing coordinators who have scaled their pipelines using our campaigns.
+            জেনে নিন ব্যবসার সিইও এবং প্রতিষ্ঠাতা পরিচালকদের নিজস্ব মতামত, যারা আমাদের নিখুঁত মার্কেটিং কৌশলের মাধ্যমে ব্যবসা লাভজনক উপায়ে সফল করেছেন।
           </p>
           <div className="w-12 h-1 bg-indigo-500 mx-auto mt-4 rounded-full" />
         </div>
@@ -67,7 +67,7 @@ export default function Testimonials() {
                     ))}
                   </div>
                   <span className="font-mono text-[9px] uppercase tracking-wider font-extrabold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/10">
-                    Verified Client Contract
+                    যাচাইকৃত ক্লায়েন্ট রিভিউ
                   </span>
                 </div>
 

@@ -8,14 +8,14 @@ export default function Navbar() {
   const [activeSection, setActiveSection] = useState('hero');
 
   const navLinks = [
-    { name: 'About', target: 'about' },
-    { name: 'Skills', target: 'skills' },
-    { name: 'Services', target: 'services' },
-    { name: 'Case Studies', target: 'portfolio' },
-    { name: 'Process', target: 'process' },
-    { name: 'Testimonials', target: 'testimonials' },
-    { name: 'Blog', target: 'blog' },
-    { name: 'Contact', target: 'contact' },
+    { name: 'আমার সম্পর্কে', target: 'about' },
+    { name: 'দক্ষতা', target: 'skills' },
+    { name: 'সেবাসমূহ', target: 'services' },
+    { name: 'কেস স্টাডিজ', target: 'portfolio' },
+    { name: 'কার্যপ্রণালী', target: 'process' },
+    { name: 'মতামত', target: 'testimonials' },
+    { name: 'ব্লগ', target: 'blog' },
+    { name: 'যোগাযোগ', target: 'contact' },
   ];
 
   useEffect(() => {
@@ -109,7 +109,7 @@ export default function Navbar() {
               onClick={() => scrollToSection('contact')}
               className="inline-flex items-center justify-center px-5 py-2 rounded-full font-sans text-xs font-semibold text-white bg-gradient-to-r from-blue-600 via-royal-600 to-cyan-500 hover:opacity-90 transition-all duration-300 shadow-md shadow-blue-500/10 hover:shadow-cyan-500/20 active:scale-95 cursor-pointer group"
             >
-              Consult Now
+              আজই পরামর্শ নিন
               <ArrowUpRight className="ml-1 w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </button>
           </div>
@@ -164,7 +164,7 @@ export default function Navbar() {
                   onClick={() => scrollToSection('contact')}
                   className="w-full flex items-center justify-center px-6 py-3.5 rounded-xl font-sans text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-cyan-500 shadow-lg shadow-blue-500/10 cursor-pointer"
                 >
-                  <span>Free Growth Consultation</span>
+                  <span>ফ্রি গ্রোথ কনসালটেশন</span>
                   <ArrowUpRight className="ml-1.5 w-4 h-4" />
                 </button>
               </div>
