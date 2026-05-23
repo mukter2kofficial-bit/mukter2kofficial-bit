@@ -8,7 +8,7 @@ import {
   BlogPostItem
 } from './types';
 
-import portraitImg from './assets/images/mukter_portrait_1779526913212.png';
+import portraitImg from './assets/images/digital_marketing_logo_1779530343273.png';
 import dashboardImg from './assets/images/marketing_dashboard_1779524378795.png';
 
 // Asset paths for reference in components

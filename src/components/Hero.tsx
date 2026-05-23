@@ -222,12 +222,12 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="relative w-full max-w-[360px] md:max-w-[400px] aspect-square rounded-[2rem] border border-slate-800 bg-slate-950/40 p-3 shadow-2xl overflow-visible backdrop-blur-md group"
             >
-              <div className="w-full h-full rounded-[1.6rem] overflow-hidden bg-slate-900 border border-slate-800/80">
+              <div className="w-full h-full rounded-[1.6rem] overflow-hidden bg-white border border-slate-200 p-6 flex items-center justify-center">
                 <img
                   src={IMAGES.portrait}
-                  alt="Md Mukter Ahmed - Professional Portrait"
+                  alt="Md Mukter Ahmed - Digital Marketing Logo"
                   referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover grayscale-[15%] group-hover:scale-103 group-hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-contain group-hover:scale-103 transition-all duration-700"
                 />
               </div>
 
